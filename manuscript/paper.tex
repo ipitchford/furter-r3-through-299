@@ -1,0 +1,518 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=30mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!45!black,
+  citecolor=blue!45!black,
+  urlcolor=blue!55!black,
+  pdftitle={Exact Finite Rigidity for Furter's R(3): All Windows Through n=299},
+  pdfauthor={Anonymous},
+  pdfsubject={An exact computer-assisted theorem for Furter's R(3,n), 1 <= n <= 299},
+  pdfkeywords={polynomial composition rigidity, Polydegree Conjecture, Strong Factorial Conjecture, computer-assisted proof}
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\GG}{\mathcal{G}}
+
+\title{Exact Finite Rigidity for Furter's \texorpdfstring{$R(3)$}{R(3)}:\\All Windows Through \texorpdfstring{$n=299$}{n=299}}
+\author{Anonymous}
+\date{14 August 2026\\Version 0.1.0-candidate}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $g_{k,3}\in\ZZ[x_1,x_2,x_3]$ be the coefficient of $X^{k+1}$ in the
+compositional inverse of
+$X(1+x_1X+x_2X^2+x_3X^3)$.  We prove, by exact computer-assisted
+certificates, that
+\[
+ \sqrt{(g_{d,3},g_{d+1,3},g_{d+2,3})\QQ[x_1,x_2,x_3]}
+   =(x_1,x_2,x_3)
+ \qquad(2\le d\le300).
+\]
+Equivalently, Furter's polynomial-composition rigidity assertion $R(3,n)$
+holds for every $1\le n\le299$.  This extends the previously published
+finite computation for the relevant three-variable window from $d<50$ to
+$d\le300$.  Each new instance is certified at one prime by exact unit-ideal
+computations on all three strata of a weighted-projective cover; properness
+then transfers emptiness of the special fibre to characteristic zero.  We
+also prove a periodic Kummer-theoretic zero-band theorem showing that no
+single prime can certify every degree by this route.  Exact rational
+Euler--socle certificates through $d=12$ and normalized-resultant data through
+$d=25$ isolate two structural continuations, but universal $R(3)$ remains
+open.  A frozen package supplies ordinary and optimized replay, independent
+coefficient reconstruction, negative controls, hashes, and a fresh-extraction
+verification receipt.
+\end{abstract}
+
+\noindent\textbf{Status.} This is an unrefereed computer-assisted theorem
+candidate.  The exact finite claim is stronger than a probabilistic
+calculation, but the release has not received specialist peer review or an
+independent external reconstruction.
+
+\section{Introduction}
+
+Furter's rigidity conjectures ask whether an unexpectedly long initial
+cancellation in a polynomial composition forces both polynomials to be the
+identity.  They are important because Furter connected them to closure
+relations between strata of plane polynomial automorphisms
+\cite{Furter2015}.  Edo and van den Essen found a further bridge to a
+restricted family in the Strong Factorial Conjecture \cite{EdoVdE2014}.
+The universal statement $R(3)$ is still open.
+
+Lewis, Perry and Straub (LPS) recast related closure questions as explicit
+ideal computations in inverse-series coefficients and verified their stronger
+condition in the three-variable column for $d<50$ \cite{LPS2019}.  The present
+work takes the radical-maximality half of that architecture and extends its
+exact finite rigidity consequence to $d\le300$.
+
+Our principal result is deliberately finite.
+
+\begin{theorem}[Exact finite $R(3)$]\label{thm:main}
+Furter's $R(3,n)$ holds for every integer $n$ with $1\le n\le299$.
+\end{theorem}
+
+The proof does not infer a characteristic-zero theorem from the apparent
+frequency of good modular reductions.  For every degree it records an exact
+empty special fibre over a single finite field.  A properness argument then
+gives the corresponding characteristic-zero conclusion.  A bad prime has no
+negative implication for characteristic zero; it merely cannot certify that
+degree by this route.
+
+The computation reveals a structural limitation.  For every prime $p\ge7$,
+infinitely many inverse coefficients vanish identically modulo $p$, so
+infinitely many three-term windows are necessarily bad at that prime.  The
+exact map supplies a bad window for each of $p=2,3,5$ as well.  Thus no fixed
+prime certifies every degree, and any universal proof based on good special
+fibres must coordinate multiple primes.
+
+\section{Inverse coefficients and the rigidity dictionary}
+
+Give $x_i$ weight $i$.  Define $g_{n,3}$ by
+\begin{equation}\label{eq:g-explicit}
+g_{n,3}=\sum_{a_1+2a_2+3a_3=n}
+(-1)^{a_1+a_2+a_3}
+\frac{(n+a_1+a_2+a_3)!}
+{(n+1)n!a_1!a_2!a_3!}
+x_1^{a_1}x_2^{a_2}x_3^{a_3}.
+\end{equation}
+These are integral weighted-homogeneous polynomials of weight $n$.  Equivalently,
+if $G$ is the unique formal solution with initial term $w$ of
+\begin{equation}\label{eq:inverse-series}
+G=w-x_1G^2-x_2G^3-x_3G^4,
+\end{equation}
+then $g_{n,3}$ is the coefficient of $w^{n+1}$ in $G$.
+
+For $d\ge2$ put
+\[
+ I_d=(g_{d,3},g_{d+1,3},g_{d+2,3})\subset\ZZ[x_1,x_2,x_3].
+\]
+
+\begin{lemma}[Source dictionary]\label{lem:dictionary}
+The equality
+\[
+ \sqrt{I_d\QQ[x_1,x_2,x_3]}=(x_1,x_2,x_3)
+\]
+is Furter's one-map assertion $\widetilde R(3,d-1)$ and is equivalent to his
+two-map assertion $R(3,d-1)$.
+\end{lemma}
+
+\begin{proof}
+The coefficient convention follows from Lagrange inversion and agrees with
+the LPS definition.  Furter's Lemma~2 identifies the vanishing of the three
+consecutive inverse coefficients with $\widetilde R(3,d-1)$ and proves the
+equivalence with $R(3,d-1)$ \cite{Furter2015,LPS2019}.  The only common
+affine zero being the origin is precisely the displayed radical equality.
+\end{proof}
+
+The shift $n=d-1$ is essential: $2\le d\le300$ corresponds exactly to
+$1\le n\le299$.
+
+\section{From one good special fibre to characteristic zero}
+
+Let $p$ be prime and write $I_{d,p}$ for the reduction of $I_d$ in
+$\FF_p[x_1,x_2,x_3]$.
+
+\begin{definition}
+The pair $(d,p)$ is \emph{GOOD} if $I_{d,p}$ has height three, equivalently
+if the quotient is finite-dimensional.  It is \emph{BAD} if the three forms
+have a nonzero common point over $\overline{\FF}_p$.
+\end{definition}
+
+Because the forms have weighted degrees $d,d+1,d+2$, a GOOD quotient is a
+weighted complete intersection.  Its length is
+\begin{equation}\label{eq:length}
+ \frac{d(d+1)(d+2)}{1\cdot2\cdot3}=\binom{d+2}{3}
+\end{equation}
+and its socle weight is
+\begin{equation}\label{eq:socle}
+ d+(d+1)+(d+2)-(1+2+3)=3d-3.
+\end{equation}
+
+\begin{lemma}[Good-special-fibre bridge]\label{lem:properness}
+If $(d,p)$ is GOOD, then
+$\sqrt{I_d\QQ[x_1,x_2,x_3]}=(x_1,x_2,x_3)$.
+\end{lemma}
+
+\begin{proof}
+Regard the common-zero scheme as a closed subscheme of the weighted projective
+plane over $\operatorname{Spec}\ZZ_{(p)}$.  This morphism is proper.  If its
+generic fibre were nonempty, the closure of a generic point would have closed
+image containing the generic point of $\operatorname{Spec}\ZZ_{(p)}$, hence
+the closed point as well.  The special fibre would then be nonempty, contrary
+to GOOD.  Thus the generic weighted-projective fibre is empty, so the only
+affine common zero in characteristic zero is the origin.
+\end{proof}
+
+This argument uses one prime for the whole projective fibre.  Certificates
+from different primes on different affine charts cannot be combined.
+
+For completeness, the same bridge has a graded-module formulation.  With
+$A=\ZZ[x_1,x_2,x_3]/I_d$, every weighted piece $A_k$ is a finite
+$\ZZ$-module.  A GOOD special fibre is a complete intersection with Hilbert
+series
+\[
+ \frac{(1-t^d)(1-t^{d+1})(1-t^{d+2})}
+ {(1-t)(1-t^2)(1-t^3)}.
+\]
+The special fibre vanishes above weight $3d-3$.  Nakayama's lemma then kills
+the corresponding localized integral pieces and makes the generic fibre
+Artinian.  Equal complete-intersection Hilbert functions also show that the
+localized graded pieces are free, a fact used by the structural pilot to lift
+modular nonvanishing.
+
+\section{The exact finite computation}
+
+Two proof-bearing lanes cover the degree interval.
+
+\subsection{Complete modular map for $2\le d\le49$}
+
+For every one of the 48 degrees and every one of the 168 primes $p\le997$,
+an exact Singular Gr\"obner-basis computation classified the quotient as
+GOOD or BAD.  The map contains 8,064 rows: 6,931 GOOD and 1,133 BAD.  An
+independent formal-reversion implementation checks the generator formula on
+a fixed grid.  The verifier rejects an impossible finite length and includes
+a mutation in which the third generator is replaced by zero.
+
+This lane reproduces the radical half of the published LPS range.  Its role in
+the present release is regression and continuity; the new finite range begins
+at $d=50$.
+
+\subsection{Weighted-projective cover for $50\le d\le300$}
+
+Materializing complete quotient bases becomes increasingly expensive.  The
+second lane instead certifies the absence of a nonzero projective common zero
+on the three strata
+\begin{equation}\label{eq:charts}
+ x_1=1,\qquad x_1=0,\ x_2=1,\qquad
+ x_1=x_2=0,\ x_3=1.
+\end{equation}
+These strata cover the weighted projective plane over an algebraically closed
+field, including in characteristics $2$ and $3$.  For a fixed attempt $(d,p)$,
+the producer reduces the integral generators at $p$ and proves that the ideal
+on each stratum is the unit ideal.  All three results are nested under the
+same prime-labelled attempt.  A second specialize-first implementation
+rebuilds every selected GOOD certificate under ordinary and optimized Python.
+
+The screen covers 251 degrees and records 2,854 attempts: 2,539 exact BAD
+fibres, 251 selected GOOD fibres, and 64 timeouts.  A timeout has no
+mathematical meaning and is never used as evidence.  The largest selected
+prime is $127$, at $d=280$; because some earlier attempts timed out, the
+selected prime is not always claimed to be the smallest possible GOOD prime.
+
+\begin{proposition}[Certified finite range]\label{prop:finite}
+For every $d$ with $2\le d\le300$, there exists a recorded prime $p$ for
+which $(d,p)$ is GOOD.
+\end{proposition}
+
+\begin{proof}[Computer-assisted proof]
+For $d\le49$, the exact modular-map receipt contains at least one row labelled
+GOOD for every degree and the verifier recomputes the expected length
+\eqref{eq:length}.  For $50\le d\le300$, the assembled projective-screen
+receipt contains exactly one selected same-prime three-stratum unit-ideal
+certificate for every degree.  Independent ordinary and optimized verifier
+receipts agree byte-for-byte.  A root verifier binds the degree inventory,
+source and runtime hashes, controls, and subordinate receipts.  A package
+verifier then extracts the frozen archive into a fresh directory, runs the
+replay, checks the manifest, and reproduces a PASS root.  All computations are
+exact; no floating-point tolerance enters an acceptance path.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Apply Proposition~\ref{prop:finite} and Lemma~\ref{lem:properness} for every
+$2\le d\le300$, then use Lemma~\ref{lem:dictionary} with $n=d-1$.
+\end{proof}
+
+\begin{corollary}[Length-two Polydegree consequence]\label{cor:polydegree}
+For every $2\le k\le300$, Furter's closure equality of Theorem~B holds for
+the length-two multidegrees $(4,k)$ and $(k,4)$.
+\end{corollary}
+
+\begin{proof}
+Use $R(3,k-1)$ in Furter's Theorem~B and his symmetry lemma
+\cite{Furter2015}.
+\end{proof}
+
+This corollary is not presented as the first proof of the full $e=3$
+Polydegree column.  A separate Evidence Press candidate has already proved
+that column for all degrees by a smooth-point/Fourier/interval-arithmetic
+route \cite{FullE3Candidate}.
+
+\section{A fixed-prime obstruction}
+
+The modular data suggests blocks, but the key negative fact is analytic.
+
+\begin{theorem}[Periodic zero band]\label{thm:zeroband}
+Let $p\ge7$ be prime and put $K_p=\lfloor(p+2)/4\rfloor$.  If
+\[
+ n\equiv-k\pmod p,\qquad 2\le k\le K_p,
+\]
+then $g_{n,3}$ is the zero polynomial in
+$\FF_p[x_1,x_2,x_3]$.
+\end{theorem}
+
+\begin{proof}
+Consider a monomial indexed by $(a_1,a_2,a_3)$ in
+\eqref{eq:g-explicit}, write $s=a_1+a_2+a_3$, and let $b_i$ be the units
+digit of $a_i$ in base $p$.  The weighted-degree condition gives
+\[
+ b_1+2b_2+3b_3\equiv-k\pmod p.
+\]
+If $b_1+b_2+b_3<k$, then the left side is at most $3(k-1)<p-k$, a
+contradiction.  Thus $b_1+b_2+b_3\ge k$.  Adding the base-$p$ units digits
+of $n,a_1,a_2,a_3$ therefore produces a carry, because the units digit of
+$n$ is $p-k$.  By Kummer's theorem the multinomial coefficient
+\[
+ \frac{(n+s)!}{n!a_1!a_2!a_3!}
+\]
+is divisible by $p$.  Since $n+1\equiv1-k\not\equiv0\pmod p$, division by
+$n+1$ preserves divisibility.  Every coefficient of $g_{n,3}$ vanishes.
+\end{proof}
+
+\begin{corollary}[No universal fixed GOOD prime]\label{cor:nofixedprime}
+For every prime $p\ge7$, infinitely many windows $I_{d,p}$ are BAD.  No
+prime, including $2,3,5$, supplies a GOOD witness for every degree through
+the good-special-fibre architecture.
+\end{corollary}
+
+\begin{proof}
+For $p\ge7$, any three-term window intersecting the periodic zero band has at
+most two nonzero generators and thus height at most two.  Explicitly,
+\[
+ p-K_p-2\le d\bmod p\le p-2
+\]
+forces BAD, and each congruence class recurs infinitely often.  For
+$p=2,3,5$, the exact map supplies a BAD witness at $d=2,3,6$ respectively.
+Those three witnesses are sufficient for the stated no-universal-fixed-prime
+conclusion; no infinitude assertion for the small primes is needed here.
+\end{proof}
+
+The same carry proof works for weights $1,\ldots,e$.  If
+$K_{p,e}=\lfloor(p+e-1)/(e+1)\rfloor$, then
+$g_{n,e}=0\pmod p$ whenever $n\equiv-k\pmod p$ and
+$2\le k\le K_{p,e}$.  We make no priority claim for this elementary
+generalization.
+
+\section{Structural evidence beyond the finite theorem}
+
+\subsection{The canonical Euler--socle route}
+
+Define the weighted Euler matrix
+\[
+ (M_d)_{ij}=\frac{j}{d+i-1}\partial_{x_j}g_{d+i-1,3}.
+\]
+Weighted Euler identities give
+\[
+ M_d(x_1,x_2,x_3)^T=(g_{d,3},g_{d+1,3},g_{d+2,3})^T.
+\]
+Consequently the adjugate identity places $x_i\det(M_d)$ in $I_d$ for each
+$i$, while $\det(M_d)$ has the socle weight $3d-3$.  In an Artinian complete
+intersection the Jacobian represents a nonzero socle class
+\cite{SchejaStorch1975}.
+
+This contracts one possible all-degree proof to two canonical identities.  It
+would suffice to prove, for every $d\ge2$, nonzero scalars $\lambda_d,\nu_d$
+such that
+\begin{equation}\label{eq:euler-targets}
+ x_1^{3d-3}-\lambda_d\det(M_d)\in I_d,
+ \qquad
+ x_3^{d-1}-\nu_d\det(M_d)\in I_d.
+\end{equation}
+Indeed the adjugate identities would force $x_1=x_3=0$ on the common-zero
+locus, and the nonzero pure-$x_2$ Fuss--Catalan coefficient in the even member
+of each three-term window would then force $x_2=0$.
+
+Exact rational certificates verify the three pure-power memberships, the
+one-lower nonmemberships, the Hilbert functions, the Euler identities, and
+\eqref{eq:euler-targets} for $2\le d\le12$.  This is a finite structural
+pilot, not an interpolation argument.
+
+\subsection{The finite-prime automaton route}
+
+Equation~\eqref{eq:inverse-series} defines an algebraic multivariate series
+over every finite field.  Multivariate Christol theory therefore gives a
+finite $p$-kernel for its coefficient array \cite{AdamczewskiBostanCaruso,
+RowlandYassawi}.  What is missing is not coefficient automaticity, but a
+finite-state lift from coefficient sections to an ideal certificate, such as
+a bounded family of leading-monomial or Gr\"obner signatures.  In view of
+Corollary~\ref{cor:nofixedprime}, a successful construction must use a product
+automaton for several primes and show that no reachable state is BAD in every
+component.
+
+\subsection{Calibrated negative results}
+
+Normalized weighted resultants were independently reconstructed through
+$d=25$: full integer determinants through $d=17$ and modular determinants
+with rigorous CRT reconstruction for $18\le d\le25$.  Across 4,032
+prime-degree comparisons, a prime divides the normalized resultant exactly
+when the corresponding fibre is BAD.  A withheld-data screen excludes every
+first-order rational-ratio recurrence
+$R_{d+1}Q(d)=R_dP(d)$ with $\deg P+\deg Q\le12$.  Separate screens reject a
+small $d$-independent raw-cofactor transport and low-complexity recurrences for
+the Euler--socle scalars.  These results close only the specified ansatz
+classes; they do not rule out higher-order creative telescoping or a finite
+automaton.
+
+\section{Evidence object and assurance boundary}
+
+The release archive is an executable evidence object rather than a table of
+claimed CAS outputs.  Its root receipt binds:
+\begin{itemize}
+\item the 299-degree inventory and the two exact certificate lanes;
+\item producer, verifier, input, runtime, and receipt SHA-256 identities;
+\item ordinary/optimized Python parity where applicable;
+\item independent formal reversion and sparse arithmetic on bounded pilots;
+\item generator-axis Catalan and Fuss--Catalan regressions through $g_{302,3}$;
+\item fail-closed controls for impossible colengths, missing generators,
+  altered cofactors, incomplete prime prefixes, and malformed inventories;
+\item an exact counterexample gate with no numerical-tolerance path; and
+\item a fresh-extraction replay and manifest verification.
+\end{itemize}
+
+The large $d=50,\ldots,300$ lane independently replays a second Singular
+wrapper, but it does not yet export portable sparse Nullstellensatz cofactors
+for all 251 degrees.  Singular is therefore inside that lane's trusted
+computing boundary.  Internal cross-model adversarial review is not external
+specialist review, and executable replay is not formal verification.
+
+\section{Limitations and open problem}
+
+Theorem~\ref{thm:main} is finite.  It neither proves nor refutes the next
+window, and it supplies no monotonicity principle in $d$.  Universal $R(3)$
+would require an all-degree theorem, not a longer table.  The two best-defined
+targets are:
+\begin{enumerate}
+\item prove both canonical identities \eqref{eq:euler-targets} for every
+  $d\ge2$, including nonvanishing of their scalars; or
+\item construct a finite set of primes and a certified product automaton that
+  gives a same-prime GOOD fibre in every degree despite each prime's zero
+  bands.
+\end{enumerate}
+The companion Universal $R(3)$ Challenge records these obligations, exact
+finite examples, falsifiers, and acceptance criteria in machine-readable
+form.
+
+\section*{Data and code availability}
+
+All proof scripts, receipts, controls, manifests, the frozen replay archive,
+and the machine-readable challenge are included with the public release.  The
+archive is identified by SHA-256 in its manifest and external verification
+receipt.  Public repository, release, and DOI links are inserted in the
+versioned record at publication.
+
+\section*{Ethics statement}
+
+This work uses no human participants, personal data, animals, clinical data,
+or field interventions.  No ethics approval was required.
+
+\section*{CRediT contribution statement}
+
+Anonymous: conceptualization, methodology, software, validation, formal
+analysis, investigation, data curation, writing, visualization, and project
+administration.  The provenance record separately describes human research
+direction and model-assisted implementation and review.
+
+\section*{Competing interests}
+
+The scholarly creator declares no competing interests.  Evidence Press is the
+publisher of this unrefereed candidate and of related computer-assisted
+mathematics releases.
+
+\section*{Funding}
+
+No external funding is declared.
+
+\section*{AI assistance disclosure}
+
+AI systems contributed to literature triage, mathematical exploration,
+software implementation, adversarial checking, exposition, and release
+engineering under human direction.  Exact computations were accepted only
+through the recorded deterministic checks and replay gates.  Model agreement
+was not treated as mathematical evidence, independent reproduction, or peer
+review.
+
+\begin{thebibliography}{99}
+
+\bibitem{Furter2015}
+J.-P. Furter,
+\emph{Polynomial composition rigidity and plane polynomial automorphisms},
+J. London Math. Soc. 91 (2015), 180--202.
+\url{https://doi.org/10.1112/jlms/jdu064}
+
+\bibitem{LPS2019}
+D. Lewis, K. Perry and A. Straub,
+\emph{An algorithmic approach to the Polydegree Conjecture for plane
+polynomial automorphisms},
+J. Pure Appl. Algebra 223 (2019), 5346--5359.
+\url{https://doi.org/10.1016/j.jpaa.2019.04.002}
+
+\bibitem{EdoVdE2014}
+E. Edo and A. van den Essen,
+\emph{The Strong Factorial Conjecture},
+J. Algebra 397 (2014), 443--456.
+\url{https://doi.org/10.1016/j.jalgebra.2013.09.011}
+
+\bibitem{SchejaStorch1975}
+G. Scheja and U. Storch,
+\emph{\"Uber Spurfunktionen bei vollst\"andigen Durchschnitten},
+J. Reine Angew. Math. 278/279 (1975), 174--190.
+\url{https://eudml.org/doc/151652}
+
+\bibitem{AdamczewskiBostanCaruso}
+B. Adamczewski, A. Bostan and X. Caruso,
+\emph{A sharper multivariate Christol's theorem with applications to
+diagonals and Hadamard products}.
+\url{https://arxiv.org/abs/2306.02640}
+
+\bibitem{RowlandYassawi}
+E. Rowland and R. Yassawi,
+\emph{Automatic congruences for diagonals of rational functions},
+J. Th\'eor. Nombres Bordeaux 27 (2015), 245--288.
+\url{https://arxiv.org/abs/1310.8635}
+
+\bibitem{FullE3Candidate}
+Anonymous,
+\emph{A Jacobian smooth-point criterion and the full $(e=3)$ column of the
+Polydegree Conjecture}, unrefereed candidate, Evidence Press (2026).
+\url{https://doi.org/10.5281/zenodo.21909085}
+
+\end{thebibliography}
+
+\end{document}

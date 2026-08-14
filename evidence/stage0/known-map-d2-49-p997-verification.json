@@ -1,0 +1,41 @@
+{
+  "environment": {
+    "python": "3.14.6",
+    "sympy": "1.14.0"
+  },
+  "formula_independence": {
+    "checked_n": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "coefficient_mutation_rejected": true,
+    "method": "formal compositional reversion in SymPy over ZZ"
+  },
+  "input_sha256": "4051bfdae189b835c0fdb5053aaf9204c2f085207fa0465fbd65e5f964115739",
+  "peer_parity": {
+    "peer_sha256": "332a5bb67920cfe7f3f4109bd25a75aec0846d460da476c85133b32cb9af936f",
+    "timing_free_projection_equal": true
+  },
+  "schema": "polydegree-r3-modular-colength-verification-v1",
+  "source_sha256": {
+    "modular_colength.py": "85f72c264eec7a9e40723ea473899cf0389bd1bed372c78a70b4004d5a0f7fe4",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff",
+    "verify_colength.py": "ba3e4c694f772a02691ed69a8a2638f41568ab840b5c95dfe5b426e299fd2736"
+  },
+  "status": "PASS",
+  "summary": {
+    "bad_count": 1133,
+    "degree_count": 48,
+    "first_good": false,
+    "good_count": 6931,
+    "prime_count": 168,
+    "row_count": 8064
+  }
+}

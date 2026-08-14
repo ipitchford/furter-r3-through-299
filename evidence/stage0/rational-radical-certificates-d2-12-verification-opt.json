@@ -1,0 +1,6290 @@
+{
+  "claim_boundary": "Independent formal reversion, exact sparse expansion, weighted Macaulay linear algebra, and Euler-Jacobian socle checks for the displayed finite degrees only; no all-degree R(3) claim is made.",
+  "d_max": 12,
+  "d_min": 2,
+  "environment": {
+    "python": "3.14.6",
+    "sympy": "1.14.0"
+  },
+  "formula_independence": {
+    "checked_n": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "method": "direct sparse compositional reversion over ZZ",
+    "weighted_homogeneity": true
+  },
+  "inputs_sha256": {
+    "known-map-d2-49-p997-verification.json": "11500ed52286adf2356c851a1451a7420925f1da95f5f99fc376288972116689",
+    "known-map-d2-49-p997.json": "4051bfdae189b835c0fdb5053aaf9204c2f085207fa0465fbd65e5f964115739",
+    "rational-radical-certificates-d2-12-opt.json": "08a8b5b969fb4242b894692cb3294ac024b5c4e7d5e0f76d06046d32208ccdb8",
+    "rational-radical-certificates-d2-12.json": "08a8b5b969fb4242b894692cb3294ac024b5c4e7d5e0f76d06046d32208ccdb8"
+  },
+  "map_summary": {
+    "bad_count": 1133,
+    "degree_count": 48,
+    "first_good": false,
+    "good_count": 6931,
+    "prime_count": 168,
+    "row_count": 8064
+  },
+  "ordinary_optimized_timing_free_parity": true,
+  "runtime_sha256": {
+    "Singular": "9452d918c2f0525120dd9dbabc9d0c9e7bbbee37e7c2f05b2cadbbf73cc18053"
+  },
+  "schema": "polydegree-r3-rational-radical-verification-v1",
+  "source_sha256": {
+    "extract_rational_radical_certificates.py": "edd48212f9aaecbd5db685f728763a14fe917e011082d4c9707540b8b73b726e",
+    "modular_colength.py": "85f72c264eec7a9e40723ea473899cf0389bd1bed372c78a70b4004d5a0f7fe4",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff",
+    "verify_colength.py": "ba3e4c694f772a02691ed69a8a2638f41568ab840b5c95dfe5b426e299fd2736",
+    "verify_rational_radical_certificates.py": "da82872210f91b45c63bec22dfd7a0bbfa36759ae4faaef355bc81631dc322ae"
+  },
+  "status": "PASS",
+  "verified": [
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 2,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          }
+        ],
+        "good_prime_conflicts": []
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 2,
+            "exponents": [
+              3,
+              0,
+              0
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              1,
+              0
+            ],
+            "numerator": 3
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              0,
+              0,
+              1
+            ],
+            "numerator": 3
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 3,
+            "scalar_times_euler_determinant": {
+              "denominator": 14,
+              "numerator": 1
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 1,
+            "scalar_times_euler_determinant": {
+              "denominator": 14,
+              "numerator": 5
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 3
+      },
+      "expected_colength": 4,
+      "hilbert_function": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            2,
+            1,
+            1
+          ],
+          "exponent": 4,
+          "lower_weight": 3,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            2,
+            1,
+            1
+          ],
+          "exponent": 2,
+          "lower_weight": 2,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            3,
+            2,
+            1
+          ],
+          "exponent": 2,
+          "lower_weight": 3,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 3,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 13
+          }
+        ],
+        "good_prime_conflicts": []
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              0,
+              0
+            ],
+            "numerator": -7
+          },
+          {
+            "denominator": 10,
+            "exponents": [
+              4,
+              1,
+              0
+            ],
+            "numerator": -63
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              0,
+              1
+            ],
+            "numerator": 7
+          },
+          {
+            "denominator": 10,
+            "exponents": [
+              2,
+              2,
+              0
+            ],
+            "numerator": -147
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              1,
+              1,
+              1
+            ],
+            "numerator": -63
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              0,
+              3,
+              0
+            ],
+            "numerator": 21
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              0,
+              0,
+              2
+            ],
+            "numerator": -21
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 6,
+            "scalar_times_euler_determinant": {
+              "denominator": 1001,
+              "numerator": -12
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 3,
+            "scalar_times_euler_determinant": {
+              "denominator": 6006,
+              "numerator": -95
+            },
+            "variable": "x2"
+          },
+          {
+            "exponent": 2,
+            "scalar_times_euler_determinant": {
+              "denominator": 286,
+              "numerator": -25
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 6
+      },
+      "expected_colength": 10,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            4,
+            3,
+            2
+          ],
+          "exponent": 7,
+          "lower_weight": 6,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            4,
+            3,
+            2
+          ],
+          "exponent": 4,
+          "lower_weight": 6,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            5,
+            3,
+            2
+          ],
+          "exponent": 3,
+          "lower_weight": 6,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 4,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "GOOD",
+            "prime": 5
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          }
+        ],
+        "good_prime_conflicts": [
+          5
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 5,
+            "exponents": [
+              9,
+              0,
+              0
+            ],
+            "numerator": 42
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              7,
+              1,
+              0
+            ],
+            "numerator": 126
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              0,
+              1
+            ],
+            "numerator": -252
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              5,
+              2,
+              0
+            ],
+            "numerator": 63
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              4,
+              1,
+              1
+            ],
+            "numerator": -413
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              3,
+              3,
+              0
+            ],
+            "numerator": 378
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              3,
+              0,
+              2
+            ],
+            "numerator": -56
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              2,
+              2,
+              1
+            ],
+            "numerator": 882
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              1,
+              4,
+              0
+            ],
+            "numerator": -378
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              1,
+              1,
+              2
+            ],
+            "numerator": 168
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              0,
+              3,
+              1
+            ],
+            "numerator": -42
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              0,
+              0,
+              3
+            ],
+            "numerator": 84
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 9,
+            "scalar_times_euler_determinant": {
+              "denominator": 89012,
+              "numerator": 195
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 3,
+            "scalar_times_euler_determinant": {
+              "denominator": 178024,
+              "numerator": 3151
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 9
+      },
+      "expected_colength": 20,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            7,
+            5,
+            4
+          ],
+          "exponent": 10,
+          "lower_weight": 9,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            6,
+            4,
+            3
+          ],
+          "exponent": 5,
+          "lower_weight": 8,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            7,
+            6,
+            4
+          ],
+          "exponent": 4,
+          "lower_weight": 9,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 5,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "GOOD",
+            "prime": 5
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "GOOD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "GOOD",
+            "prime": 179
+          },
+          {
+            "classification": "GOOD",
+            "prime": 293
+          },
+          {
+            "classification": "GOOD",
+            "prime": 719
+          }
+        ],
+        "good_prime_conflicts": [
+          5,
+          13,
+          179,
+          293,
+          719
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 5,
+            "exponents": [
+              12,
+              0,
+              0
+            ],
+            "numerator": -396
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              10,
+              1,
+              0
+            ],
+            "numerator": -594
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              9,
+              0,
+              1
+            ],
+            "numerator": 2376
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              8,
+              2,
+              0
+            ],
+            "numerator": -1782
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              7,
+              1,
+              1
+            ],
+            "numerator": 768
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              3,
+              0
+            ],
+            "numerator": -2664
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              0,
+              2
+            ],
+            "numerator": -2136
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              5,
+              2,
+              1
+            ],
+            "numerator": 324
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              4,
+              0
+            ],
+            "numerator": -162
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              1,
+              2
+            ],
+            "numerator": 1062
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              3,
+              1
+            ],
+            "numerator": -2952
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              0,
+              3
+            ],
+            "numerator": -72
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              5,
+              0
+            ],
+            "numerator": 1080
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              2,
+              2
+            ],
+            "numerator": -144
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              4,
+              1
+            ],
+            "numerator": 408
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              1,
+              3
+            ],
+            "numerator": -288
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              0,
+              6,
+              0
+            ],
+            "numerator": -108
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              0,
+              3,
+              2
+            ],
+            "numerator": 12
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              0,
+              0,
+              4
+            ],
+            "numerator": -72
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 12,
+            "scalar_times_euler_determinant": {
+              "denominator": 25234415052,
+              "numerator": -9868289
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 6,
+            "scalar_times_euler_determinant": {
+              "denominator": 10814749308,
+              "numerator": -1986379
+            },
+            "variable": "x2"
+          },
+          {
+            "exponent": 4,
+            "scalar_times_euler_determinant": {
+              "denominator": 109239892,
+              "numerator": -349601
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 12
+      },
+      "expected_colength": 35,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        5,
+        4,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            10,
+            8,
+            7
+          ],
+          "exponent": 13,
+          "lower_weight": 12,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            10,
+            8,
+            6
+          ],
+          "exponent": 7,
+          "lower_weight": 12,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            10,
+            8,
+            6
+          ],
+          "exponent": 5,
+          "lower_weight": 12,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 6,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "GOOD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "GOOD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "GOOD",
+            "prime": 113
+          },
+          {
+            "classification": "BAD",
+            "prime": 257
+          }
+        ],
+        "good_prime_conflicts": [
+          7,
+          13,
+          113
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 14,
+            "exponents": [
+              15,
+              0,
+              0
+            ],
+            "numerator": 14157
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              12,
+              0,
+              1
+            ],
+            "numerator": -80223
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              11,
+              2,
+              0
+            ],
+            "numerator": 42471
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              10,
+              1,
+              1
+            ],
+            "numerator": -4818
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              9,
+              3,
+              0
+            ],
+            "numerator": 3465
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              9,
+              0,
+              2
+            ],
+            "numerator": 113025
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              8,
+              2,
+              1
+            ],
+            "numerator": -60885
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              7,
+              4,
+              0
+            ],
+            "numerator": 17820
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              7,
+              1,
+              2
+            ],
+            "numerator": -19305
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              6,
+              3,
+              1
+            ],
+            "numerator": 99990
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              6,
+              0,
+              3
+            ],
+            "numerator": 17160
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              5,
+              5,
+              0
+            ],
+            "numerator": -35640
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              5,
+              2,
+              2
+            ],
+            "numerator": -262350
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              4,
+              4,
+              1
+            ],
+            "numerator": 93225
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              4,
+              1,
+              3
+            ],
+            "numerator": 106425
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              3,
+              6,
+              0
+            ],
+            "numerator": -94050
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              3,
+              3,
+              2
+            ],
+            "numerator": 35475
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              3,
+              0,
+              4
+            ],
+            "numerator": -7425
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              2,
+              5,
+              1
+            ],
+            "numerator": -108900
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              2,
+              2,
+              3
+            ],
+            "numerator": 14850
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              1,
+              7,
+              0
+            ],
+            "numerator": 29700
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              1,
+              4,
+              2
+            ],
+            "numerator": 14850
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              1,
+              1,
+              4
+            ],
+            "numerator": 12375
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              0,
+              6,
+              1
+            ],
+            "numerator": -825
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              0,
+              3,
+              3
+            ],
+            "numerator": -4125
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              0,
+              0,
+              5
+            ],
+            "numerator": 2475
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 15,
+            "scalar_times_euler_determinant": {
+              "denominator": 8234982165840628,
+              "numerator": 548771964577
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 5,
+            "scalar_times_euler_determinant": {
+              "denominator": 41174910829203140,
+              "numerator": 22080835885179
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 15
+      },
+      "expected_colength": 56,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            14,
+            12,
+            10
+          ],
+          "exponent": 16,
+          "lower_weight": 15,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            12,
+            10,
+            8
+          ],
+          "exponent": 8,
+          "lower_weight": 14,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            15,
+            12,
+            10
+          ],
+          "exponent": 6,
+          "lower_weight": 15,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 7,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "GOOD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "BAD",
+            "prime": 29
+          },
+          {
+            "classification": "BAD",
+            "prime": 53
+          },
+          {
+            "classification": "GOOD",
+            "prime": 89
+          },
+          {
+            "classification": "GOOD",
+            "prime": 109
+          },
+          {
+            "classification": "GOOD",
+            "prime": 773
+          },
+          {
+            "classification": "GOOD",
+            "prime": 859
+          }
+        ],
+        "good_prime_conflicts": [
+          7,
+          89,
+          109,
+          773,
+          859
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 14,
+            "exponents": [
+              18,
+              0,
+              0
+            ],
+            "numerator": -224939
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              16,
+              1,
+              0
+            ],
+            "numerator": 674817
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              15,
+              0,
+              1
+            ],
+            "numerator": 1165593
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              14,
+              2,
+              0
+            ],
+            "numerator": -1533675
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              13,
+              1,
+              1
+            ],
+            "numerator": -250107
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              12,
+              3,
+              0
+            ],
+            "numerator": -29887
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              12,
+              0,
+              2
+            ],
+            "numerator": -929643
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              11,
+              2,
+              1
+            ],
+            "numerator": 306735
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              10,
+              4,
+              0
+            ],
+            "numerator": -382239
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              10,
+              1,
+              2
+            ],
+            "numerator": 42471
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              9,
+              3,
+              1
+            ],
+            "numerator": -1580865
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              9,
+              0,
+              3
+            ],
+            "numerator": 180895
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              8,
+              5,
+              0
+            ],
+            "numerator": 873015
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              8,
+              2,
+              2
+            ],
+            "numerator": 10877295
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              7,
+              4,
+              1
+            ],
+            "numerator": -464035
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              7,
+              1,
+              3
+            ],
+            "numerator": -2453880
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              6,
+              6,
+              0
+            ],
+            "numerator": 3625765
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              6,
+              3,
+              2
+            ],
+            "numerator": 6118970
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              6,
+              0,
+              4
+            ],
+            "numerator": 117975
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              5,
+              5,
+              1
+            ],
+            "numerator": -8564985
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              5,
+              2,
+              3
+            ],
+            "numerator": -2194335
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              4,
+              7,
+              0
+            ],
+            "numerator": 943800
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              4,
+              4,
+              2
+            ],
+            "numerator": -5544825
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              4,
+              1,
+              4
+            ],
+            "numerator": 553575
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              6,
+              1
+            ],
+            "numerator": 471900
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              3,
+              3,
+              3
+            ],
+            "numerator": 922625
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              3,
+              0,
+              5
+            ],
+            "numerator": 18150
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              2,
+              8,
+              0
+            ],
+            "numerator": -1533675
+          },
+          {
+            "denominator": 28,
+            "exponents": [
+              2,
+              5,
+              2
+            ],
+            "numerator": -2967525
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              2,
+              2,
+              4
+            ],
+            "numerator": -843975
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              1,
+              7,
+              1
+            ],
+            "numerator": -196625
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              1,
+              4,
+              3
+            ],
+            "numerator": 335775
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              1,
+              1,
+              5
+            ],
+            "numerator": -54450
+          },
+          {
+            "denominator": 7,
+            "exponents": [
+              0,
+              9,
+              0
+            ],
+            "numerator": 39325
+          },
+          {
+            "denominator": 4,
+            "exponents": [
+              0,
+              6,
+              2
+            ],
+            "numerator": 15125
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              0,
+              3,
+              4
+            ],
+            "numerator": 27225
+          },
+          {
+            "denominator": 14,
+            "exponents": [
+              0,
+              0,
+              6
+            ],
+            "numerator": -27225
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 18,
+            "scalar_times_euler_determinant": {
+              "denominator": 9036408223057507257867,
+              "numerator": -97789141886434696
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 9,
+            "scalar_times_euler_determinant": {
+              "denominator": 2033191850187939133020075,
+              "numerator": -2990675118598320416
+            },
+            "variable": "x2"
+          },
+          {
+            "exponent": 6,
+            "scalar_times_euler_determinant": {
+              "denominator": 239199041198581074472950,
+              "numerator": -20334137314103881853
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 18
+      },
+      "expected_colength": 84,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        7,
+        8,
+        8,
+        8,
+        7,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            19,
+            16,
+            13
+          ],
+          "exponent": 19,
+          "lower_weight": 18,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            17,
+            15,
+            12
+          ],
+          "exponent": 10,
+          "lower_weight": 18,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            18,
+            15,
+            13
+          ],
+          "exponent": 7,
+          "lower_weight": 18,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 8,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "GOOD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "BAD",
+            "prime": 29
+          },
+          {
+            "classification": "BAD",
+            "prime": 31
+          },
+          {
+            "classification": "GOOD",
+            "prime": 37
+          },
+          {
+            "classification": "GOOD",
+            "prime": 53
+          },
+          {
+            "classification": "GOOD",
+            "prime": 67
+          },
+          {
+            "classification": "GOOD",
+            "prime": 71
+          },
+          {
+            "classification": "GOOD",
+            "prime": 113
+          },
+          {
+            "classification": "GOOD",
+            "prime": 139
+          },
+          {
+            "classification": "GOOD",
+            "prime": 233
+          },
+          {
+            "classification": "GOOD",
+            "prime": 257
+          },
+          {
+            "classification": "GOOD",
+            "prime": 271
+          },
+          {
+            "classification": "GOOD",
+            "prime": 599
+          }
+        ],
+        "good_prime_conflicts": [
+          7,
+          37,
+          53,
+          67,
+          71,
+          113,
+          139,
+          233,
+          257,
+          271,
+          599
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 15,
+            "exponents": [
+              21,
+              0,
+              0
+            ],
+            "numerator": 4519229
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              19,
+              1,
+              0
+            ],
+            "numerator": -4519229
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              18,
+              0,
+              1
+            ],
+            "numerator": -1390532
+          },
+          {
+            "denominator": 10,
+            "exponents": [
+              17,
+              2,
+              0
+            ],
+            "numerator": 17729283
+          },
+          {
+            "denominator": 10,
+            "exponents": [
+              16,
+              1,
+              1
+            ],
+            "numerator": 19446999
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              15,
+              3,
+              0
+            ],
+            "numerator": -19794632
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              15,
+              0,
+              2
+            ],
+            "numerator": 2228941
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              14,
+              2,
+              1
+            ],
+            "numerator": -20060469
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              13,
+              4,
+              0
+            ],
+            "numerator": 4723719
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              13,
+              1,
+              2
+            ],
+            "numerator": -3926208
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              12,
+              3,
+              1
+            ],
+            "numerator": 16032016
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              12,
+              0,
+              3
+            ],
+            "numerator": -920205
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              11,
+              5,
+              0
+            ],
+            "numerator": -2535676
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              11,
+              2,
+              2
+            ],
+            "numerator": -18935774
+          },
+          {
+            "denominator": 30,
+            "exponents": [
+              10,
+              4,
+              1
+            ],
+            "numerator": 107623087
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              10,
+              1,
+              3
+            ],
+            "numerator": 30583839
+          },
+          {
+            "denominator": 12,
+            "exponents": [
+              9,
+              6,
+              0
+            ],
+            "numerator": -14498341
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              9,
+              3,
+              2
+            ],
+            "numerator": -42544931
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              9,
+              0,
+              4
+            ],
+            "numerator": -1722435
+          },
+          {
+            "denominator": 4,
+            "exponents": [
+              8,
+              5,
+              1
+            ],
+            "numerator": 39487019
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              8,
+              2,
+              3
+            ],
+            "numerator": 12215918
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              7,
+              7,
+              0
+            ],
+            "numerator": -1983553
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              7,
+              4,
+              2
+            ],
+            "numerator": -25628889
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              7,
+              1,
+              4
+            ],
+            "numerator": -16514927
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              6,
+              6,
+              1
+            ],
+            "numerator": 9304295
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              6,
+              3,
+              3
+            ],
+            "numerator": -55517462
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              0,
+              5
+            ],
+            "numerator": 1695694
+          },
+          {
+            "denominator": 4,
+            "exponents": [
+              5,
+              8,
+              0
+            ],
+            "numerator": -2719717
+          },
+          {
+            "denominator": 10,
+            "exponents": [
+              5,
+              5,
+              2
+            ],
+            "numerator": 172024853
+          },
+          {
+            "denominator": 10,
+            "exponents": [
+              5,
+              2,
+              4
+            ],
+            "numerator": 29388359
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              4,
+              7,
+              1
+            ],
+            "numerator": -35356321
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              4,
+              3
+            ],
+            "numerator": -7806799
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              4,
+              1,
+              5
+            ],
+            "numerator": -1420419
+          },
+          {
+            "denominator": 6,
+            "exponents": [
+              3,
+              9,
+              0
+            ],
+            "numerator": 13598585
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              3,
+              6,
+              2
+            ],
+            "numerator": 5967962
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              3,
+              4
+            ],
+            "numerator": 2213211
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              3,
+              0,
+              6
+            ],
+            "numerator": 55055
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              8,
+              1
+            ],
+            "numerator": 1431430
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              2,
+              5,
+              3
+            ],
+            "numerator": 209209
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              2,
+              5
+            ],
+            "numerator": 66066
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              1,
+              10,
+              0
+            ],
+            "numerator": -715715
+          },
+          {
+            "denominator": 2,
+            "exponents": [
+              1,
+              7,
+              2
+            ],
+            "numerator": -1134133
+          },
+          {
+            "denominator": 6,
+            "exponents": [
+              1,
+              4,
+              4
+            ],
+            "numerator": -1442441
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              1,
+              6
+            ],
+            "numerator": 66066
+          },
+          {
+            "denominator": 4,
+            "exponents": [
+              0,
+              9,
+              1
+            ],
+            "numerator": 143143
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              0,
+              6,
+              3
+            ],
+            "numerator": 209209
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              0,
+              3,
+              5
+            ],
+            "numerator": -11011
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              0,
+              0,
+              7
+            ],
+            "numerator": 11011
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 21,
+            "scalar_times_euler_determinant": {
+              "denominator": 1623132297973306239103750959748792380,
+              "numerator": 2730189480904524292499712535057
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 7,
+            "scalar_times_euler_determinant": {
+              "denominator": 12735345722559787414506353684182832520,
+              "numerator": 164410557175776930202391893094539
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 21
+      },
+      "expected_colength": 120,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        10,
+        10,
+        10,
+        9,
+        8,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            23,
+            19,
+            16
+          ],
+          "exponent": 22,
+          "lower_weight": 21,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            20,
+            17,
+            15
+          ],
+          "exponent": 11,
+          "lower_weight": 20,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            22,
+            20,
+            17
+          ],
+          "exponent": 8,
+          "lower_weight": 21,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 9,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "BAD",
+            "prime": 29
+          },
+          {
+            "classification": "BAD",
+            "prime": 31
+          },
+          {
+            "classification": "BAD",
+            "prime": 37
+          },
+          {
+            "classification": "GOOD",
+            "prime": 43
+          },
+          {
+            "classification": "GOOD",
+            "prime": 67
+          },
+          {
+            "classification": "GOOD",
+            "prime": 73
+          },
+          {
+            "classification": "GOOD",
+            "prime": 103
+          },
+          {
+            "classification": "GOOD",
+            "prime": 151
+          },
+          {
+            "classification": "GOOD",
+            "prime": 283
+          },
+          {
+            "classification": "GOOD",
+            "prime": 509
+          },
+          {
+            "classification": "GOOD",
+            "prime": 653
+          },
+          {
+            "classification": "GOOD",
+            "prime": 727
+          }
+        ],
+        "good_prime_conflicts": [
+          43,
+          67,
+          73,
+          103,
+          151,
+          283,
+          509,
+          653,
+          727
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 15,
+            "exponents": [
+              24,
+              0,
+              0
+            ],
+            "numerator": -96509816
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              22,
+              1,
+              0
+            ],
+            "numerator": 144764724
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              21,
+              0,
+              1
+            ],
+            "numerator": 386039264
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              20,
+              2,
+              0
+            ],
+            "numerator": -337784356
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              19,
+              1,
+              1
+            ],
+            "numerator": -1020673472
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              18,
+              3,
+              0
+            ],
+            "numerator": 420400344
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              18,
+              0,
+              2
+            ],
+            "numerator": -580139144
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              17,
+              2,
+              1
+            ],
+            "numerator": 668696496
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              16,
+              4,
+              0
+            ],
+            "numerator": -339726504
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              16,
+              1,
+              2
+            ],
+            "numerator": 166381176
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              15,
+              3,
+              1
+            ],
+            "numerator": -731442816
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              15,
+              0,
+              3
+            ],
+            "numerator": 378109784
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              14,
+              5,
+              0
+            ],
+            "numerator": 178602918
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              14,
+              2,
+              2
+            ],
+            "numerator": 38325820
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              13,
+              4,
+              1
+            ],
+            "numerator": 121309552
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              13,
+              1,
+              3
+            ],
+            "numerator": -564877768
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              12,
+              6,
+              0
+            ],
+            "numerator": 20392554
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              12,
+              3,
+              2
+            ],
+            "numerator": 573083056
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              12,
+              0,
+              4
+            ],
+            "numerator": 33625592
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              11,
+              5,
+              1
+            ],
+            "numerator": -163140432
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              11,
+              2,
+              3
+            ],
+            "numerator": -1220979032
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              10,
+              7,
+              0
+            ],
+            "numerator": 122355324
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              10,
+              4,
+              2
+            ],
+            "numerator": 1524092024
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              10,
+              1,
+              4
+            ],
+            "numerator": 423372040
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              9,
+              6,
+              1
+            ],
+            "numerator": -1721340712
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              9,
+              3,
+              3
+            ],
+            "numerator": -624387400
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              9,
+              0,
+              5
+            ],
+            "numerator": -387370984
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              8,
+              8,
+              0
+            ],
+            "numerator": 98825454
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              8,
+              5,
+              2
+            ],
+            "numerator": 52979472
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              8,
+              2,
+              4
+            ],
+            "numerator": -11077612
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              7,
+              7,
+              1
+            ],
+            "numerator": 253199856
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              7,
+              4,
+              3
+            ],
+            "numerator": 1975818208
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              7,
+              1,
+              5
+            ],
+            "numerator": 105088256
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              6,
+              9,
+              0
+            ],
+            "numerator": -200665192
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              6,
+              2
+            ],
+            "numerator": -2630244344
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              6,
+              3,
+              4
+            ],
+            "numerator": -3472985152
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              6,
+              0,
+              6
+            ],
+            "numerator": -12852112
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              5,
+              8,
+              1
+            ],
+            "numerator": 1223799304
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              5,
+              5,
+              3
+            ],
+            "numerator": 1100511776
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              5,
+              2,
+              5
+            ],
+            "numerator": 293876128
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              10,
+              0
+            ],
+            "numerator": -38755080
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              7,
+              2
+            ],
+            "numerator": 33786480
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              4,
+              4
+            ],
+            "numerator": -35409556
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              4,
+              1,
+              6
+            ],
+            "numerator": -5001724
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              3,
+              9,
+              1
+            ],
+            "numerator": -215306000
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              3,
+              6,
+              3
+            ],
+            "numerator": -307688836
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              3,
+              5
+            ],
+            "numerator": -8214752
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              3,
+              0,
+              7
+            ],
+            "numerator": 861224
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              11,
+              0
+            ],
+            "numerator": 13779584
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              8,
+              2
+            ],
+            "numerator": 32279338
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              2,
+              5,
+              4
+            ],
+            "numerator": 112091616
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              2,
+              6
+            ],
+            "numerator": -563108
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              1,
+              10,
+              1
+            ],
+            "numerator": -1722448
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              7,
+              3
+            ],
+            "numerator": -4935476
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              4,
+              5
+            ],
+            "numerator": -1424332
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              1,
+              7
+            ],
+            "numerator": -463736
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              0,
+              12,
+              0
+            ],
+            "numerator": -430612
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              0,
+              9,
+              2
+            ],
+            "numerator": -2575391
+          },
+          {
+            "denominator": 15,
+            "exponents": [
+              0,
+              6,
+              4
+            ],
+            "numerator": 215306
+          },
+          {
+            "denominator": 3,
+            "exponents": [
+              0,
+              3,
+              6
+            ],
+            "numerator": 463736
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              0,
+              0,
+              8
+            ],
+            "numerator": -66248
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 24,
+            "scalar_times_euler_determinant": {
+              "denominator": 589621764562239929200649050298326688052336998136,
+              "numerator": -148391326877228880239519500852234095521491
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 12,
+            "scalar_times_euler_determinant": {
+              "denominator": 49799135520459453479784548167088402707123057275,
+              "numerator": -480884378253100577255330520520420792978
+            },
+            "variable": "x2"
+          },
+          {
+            "exponent": 8,
+            "scalar_times_euler_determinant": {
+              "denominator": 1710238323941988424413067207037726789802578600,
+              "numerator": -3239396550548549681503549534684730115097
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 24
+      },
+      "expected_colength": 165,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        12,
+        13,
+        12,
+        12,
+        11,
+        10,
+        8,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            29,
+            25,
+            21
+          ],
+          "exponent": 25,
+          "lower_weight": 24,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            27,
+            24,
+            21
+          ],
+          "exponent": 13,
+          "lower_weight": 24,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            28,
+            24,
+            21
+          ],
+          "exponent": 9,
+          "lower_weight": 24,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 10,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "GOOD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "BAD",
+            "prime": 29
+          },
+          {
+            "classification": "BAD",
+            "prime": 31
+          },
+          {
+            "classification": "BAD",
+            "prime": 37
+          },
+          {
+            "classification": "BAD",
+            "prime": 41
+          },
+          {
+            "classification": "GOOD",
+            "prime": 43
+          },
+          {
+            "classification": "GOOD",
+            "prime": 97
+          },
+          {
+            "classification": "GOOD",
+            "prime": 101
+          },
+          {
+            "classification": "GOOD",
+            "prime": 103
+          },
+          {
+            "classification": "GOOD",
+            "prime": 113
+          },
+          {
+            "classification": "GOOD",
+            "prime": 251
+          },
+          {
+            "classification": "GOOD",
+            "prime": 397
+          },
+          {
+            "classification": "GOOD",
+            "prime": 571
+          },
+          {
+            "classification": "GOOD",
+            "prime": 877
+          }
+        ],
+        "good_prime_conflicts": [
+          11,
+          43,
+          97,
+          101,
+          103,
+          113,
+          251,
+          397,
+          571,
+          877
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 55,
+            "exponents": [
+              27,
+              0,
+              0
+            ],
+            "numerator": 8392642076
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              25,
+              1,
+              0
+            ],
+            "numerator": -50355852456
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              24,
+              0,
+              1
+            ],
+            "numerator": -28140035196
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              23,
+              2,
+              0
+            ],
+            "numerator": 145143339432
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              22,
+              1,
+              1
+            ],
+            "numerator": 2000722724
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              21,
+              3,
+              0
+            ],
+            "numerator": -241204013596
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              21,
+              0,
+              2
+            ],
+            "numerator": 37468080104
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              20,
+              2,
+              1
+            ],
+            "numerator": -253494167472
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              19,
+              4,
+              0
+            ],
+            "numerator": 51252280170
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              19,
+              1,
+              2
+            ],
+            "numerator": -9899679972
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              18,
+              3,
+              1
+            ],
+            "numerator": 72181918536
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              18,
+              0,
+              3
+            ],
+            "numerator": -3014075792
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              17,
+              5,
+              0
+            ],
+            "numerator": -179363493036
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              17,
+              2,
+              2
+            ],
+            "numerator": -36129934386
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              16,
+              4,
+              1
+            ],
+            "numerator": -26645989006
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              16,
+              1,
+              3
+            ],
+            "numerator": 27926818374
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              15,
+              6,
+              0
+            ],
+            "numerator": 14057025892
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              15,
+              3,
+              2
+            ],
+            "numerator": -8724312688
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              15,
+              0,
+              4
+            ],
+            "numerator": -34839170184
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              14,
+              5,
+              1
+            ],
+            "numerator": 293303811528
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              14,
+              2,
+              3
+            ],
+            "numerator": 37599525600
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              13,
+              7,
+              0
+            ],
+            "numerator": -35820426096
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              13,
+              4,
+              2
+            ],
+            "numerator": -66794181636
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              13,
+              1,
+              4
+            ],
+            "numerator": -38749713912
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              6,
+              1
+            ],
+            "numerator": 3594881472
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              3,
+              3
+            ],
+            "numerator": 73812196640
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              0,
+              5
+            ],
+            "numerator": 10673149032
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              11,
+              8,
+              0
+            ],
+            "numerator": -13224028272
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              11,
+              5,
+              2
+            ],
+            "numerator": -125920521636
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              11,
+              2,
+              4
+            ],
+            "numerator": -29534451492
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              10,
+              7,
+              1
+            ],
+            "numerator": 49589542912
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              10,
+              4,
+              3
+            ],
+            "numerator": -32562564762
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              10,
+              1,
+              5
+            ],
+            "numerator": 3851658720
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              9,
+              9,
+              0
+            ],
+            "numerator": 81087552
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              9,
+              6,
+              2
+            ],
+            "numerator": 67443022829
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              9,
+              3,
+              4
+            ],
+            "numerator": 80151666504
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              9,
+              0,
+              6
+            ],
+            "numerator": -338991016
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              8,
+              8,
+              1
+            ],
+            "numerator": -37442177136
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              8,
+              5,
+              3
+            ],
+            "numerator": -881020053459
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              8,
+              2,
+              5
+            ],
+            "numerator": -41613118092
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              7,
+              10,
+              0
+            ],
+            "numerator": 29607092424
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              7,
+              7,
+              2
+            ],
+            "numerator": 670436947908
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              7,
+              4,
+              4
+            ],
+            "numerator": 94590881840
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              7,
+              1,
+              6
+            ],
+            "numerator": 8544600792
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              6,
+              9,
+              1
+            ],
+            "numerator": -220233791232
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              6,
+              3
+            ],
+            "numerator": -23402205372
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              3,
+              5
+            ],
+            "numerator": -21364317520
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              0,
+              7
+            ],
+            "numerator": -567612864
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              5,
+              11,
+              0
+            ],
+            "numerator": 28238739984
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              5,
+              8,
+              2
+            ],
+            "numerator": -21013501236
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              5,
+              5,
+              4
+            ],
+            "numerator": -112706629308
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              5,
+              2,
+              6
+            ],
+            "numerator": 1336255284
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              10,
+              1
+            ],
+            "numerator": 28601381536
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              7,
+              3
+            ],
+            "numerator": 41944225596
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              4,
+              5
+            ],
+            "numerator": 13421679180
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              1,
+              7
+            ],
+            "numerator": -54488980
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              12,
+              0
+            ],
+            "numerator": -4469951304
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              3,
+              9,
+              2
+            ],
+            "numerator": -1036681828
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              6,
+              4
+            ],
+            "numerator": -13303426500
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              3,
+              6
+            ],
+            "numerator": -1824801160
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              0,
+              8
+            ],
+            "numerator": -9274720
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              11,
+              1
+            ],
+            "numerator": -1419032160
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              8,
+              3
+            ],
+            "numerator": 331107504
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              5,
+              5
+            ],
+            "numerator": 1208264148
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              2,
+              7
+            ],
+            "numerator": 285197640
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              13,
+              0
+            ],
+            "numerator": 425709648
+          },
+          {
+            "denominator": 5,
+            "exponents": [
+              1,
+              10,
+              2
+            ],
+            "numerator": 490748622
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              7,
+              4
+            ],
+            "numerator": 534455740
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              4,
+              6
+            ],
+            "numerator": -104340600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              1,
+              8
+            ],
+            "numerator": 27824160
+          },
+          {
+            "denominator": 55,
+            "exponents": [
+              0,
+              12,
+              1
+            ],
+            "numerator": -307456968
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              9,
+              3
+            ],
+            "numerator": -135990582
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              6,
+              5
+            ],
+            "numerator": -41504372
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              3,
+              7
+            ],
+            "numerator": -6956040
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              0,
+              9
+            ],
+            "numerator": 4637360
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 27,
+            "scalar_times_euler_determinant": {
+              "denominator": 175376898981539050137632620961811037100803735498632616944,
+              "numerator": 6391916861067060108286640065936216051004907815609
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 9,
+            "scalar_times_euler_determinant": {
+              "denominator": 130971368371704127058687234715434985032605919113488085200,
+              "numerator": 35377743742074702499496376570030080387695435269233
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 27
+      },
+      "expected_colength": 220,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        15,
+        15,
+        15,
+        14,
+        13,
+        12,
+        10,
+        8,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            36,
+            31,
+            27
+          ],
+          "exponent": 28,
+          "lower_weight": 27,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            31,
+            27,
+            24
+          ],
+          "exponent": 14,
+          "lower_weight": 26,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            35,
+            31,
+            28
+          ],
+          "exponent": 10,
+          "lower_weight": 27,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 11,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "GOOD",
+            "prime": 11
+          },
+          {
+            "classification": "BAD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "BAD",
+            "prime": 29
+          },
+          {
+            "classification": "BAD",
+            "prime": 31
+          },
+          {
+            "classification": "BAD",
+            "prime": 37
+          },
+          {
+            "classification": "BAD",
+            "prime": 41
+          },
+          {
+            "classification": "BAD",
+            "prime": 43
+          },
+          {
+            "classification": "GOOD",
+            "prime": 47
+          },
+          {
+            "classification": "GOOD",
+            "prime": 103
+          },
+          {
+            "classification": "GOOD",
+            "prime": 109
+          },
+          {
+            "classification": "GOOD",
+            "prime": 163
+          },
+          {
+            "classification": "GOOD",
+            "prime": 233
+          },
+          {
+            "classification": "GOOD",
+            "prime": 311
+          },
+          {
+            "classification": "GOOD",
+            "prime": 443
+          },
+          {
+            "classification": "GOOD",
+            "prime": 751
+          },
+          {
+            "classification": "GOOD",
+            "prime": 823
+          },
+          {
+            "classification": "GOOD",
+            "prime": 971
+          }
+        ],
+        "good_prime_conflicts": [
+          11,
+          47,
+          103,
+          109,
+          163,
+          233,
+          311,
+          443,
+          751,
+          823,
+          971
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 11,
+            "exponents": [
+              30,
+              0,
+              0
+            ],
+            "numerator": -43403367896
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              28,
+              1,
+              0
+            ],
+            "numerator": 325525259220
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              27,
+              0,
+              1
+            ],
+            "numerator": 116503776984
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              26,
+              2,
+              0
+            ],
+            "numerator": -1141051698108
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              25,
+              1,
+              1
+            ],
+            "numerator": -601191272024
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              24,
+              3,
+              0
+            ],
+            "numerator": 2366327780600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              24,
+              0,
+              2
+            ],
+            "numerator": -129146782520
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              23,
+              2,
+              1
+            ],
+            "numerator": 1670524294320
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              22,
+              4,
+              0
+            ],
+            "numerator": -290251624320
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              22,
+              1,
+              2
+            ],
+            "numerator": 181363447020
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              21,
+              3,
+              1
+            ],
+            "numerator": -270095261520
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              21,
+              0,
+              3
+            ],
+            "numerator": 160170053960
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              20,
+              5,
+              0
+            ],
+            "numerator": 265135043544
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              20,
+              2,
+              2
+            ],
+            "numerator": 403039619640
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              19,
+              4,
+              1
+            ],
+            "numerator": 3466018038000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              19,
+              1,
+              3
+            ],
+            "numerator": -765074647680
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              18,
+              6,
+              0
+            ],
+            "numerator": -1784539198680
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              18,
+              3,
+              2
+            ],
+            "numerator": -644094958920
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              18,
+              0,
+              4
+            ],
+            "numerator": 145840740360
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              17,
+              5,
+              1
+            ],
+            "numerator": -3250624469904
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              17,
+              2,
+              3
+            ],
+            "numerator": -62281777320
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              16,
+              7,
+              0
+            ],
+            "numerator": 783087148368
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              16,
+              4,
+              2
+            ],
+            "numerator": 2270911771800
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              16,
+              1,
+              4
+            ],
+            "numerator": 809069637880
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              15,
+              6,
+              1
+            ],
+            "numerator": 1532887239744
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              15,
+              3,
+              3
+            ],
+            "numerator": -2081206727040
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              15,
+              0,
+              5
+            ],
+            "numerator": -306361339760
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              14,
+              8,
+              0
+            ],
+            "numerator": -156693811680
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              14,
+              5,
+              2
+            ],
+            "numerator": -437164756980
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              14,
+              2,
+              4
+            ],
+            "numerator": 1020986656200
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              13,
+              7,
+              1
+            ],
+            "numerator": -915649288960
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              13,
+              4,
+              3
+            ],
+            "numerator": 328244292600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              13,
+              1,
+              5
+            ],
+            "numerator": -375954558000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              9,
+              0
+            ],
+            "numerator": 38513874000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              6,
+              2
+            ],
+            "numerator": -79976634640
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              3,
+              4
+            ],
+            "numerator": -1121712849600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              12,
+              0,
+              6
+            ],
+            "numerator": 83530384000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              11,
+              8,
+              1
+            ],
+            "numerator": 611111400480
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              11,
+              5,
+              3
+            ],
+            "numerator": 3013177903680
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              11,
+              2,
+              5
+            ],
+            "numerator": 1162766278800
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              10,
+              10,
+              0
+            ],
+            "numerator": -6138235152
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              10,
+              7,
+              2
+            ],
+            "numerator": -262775319240
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              10,
+              4,
+              4
+            ],
+            "numerator": -4308980789400
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              10,
+              1,
+              6
+            ],
+            "numerator": -402583937700
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              9,
+              9,
+              1
+            ],
+            "numerator": 83485164000
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              9,
+              6,
+              3
+            ],
+            "numerator": 429630336240
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              9,
+              3,
+              5
+            ],
+            "numerator": 2196500905200
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              9,
+              0,
+              7
+            ],
+            "numerator": 41871459000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              8,
+              11,
+              0
+            ],
+            "numerator": -124701927840
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              8,
+              8,
+              2
+            ],
+            "numerator": -2103715434240
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              8,
+              5,
+              4
+            ],
+            "numerator": -1600076870280
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              8,
+              2,
+              6
+            ],
+            "numerator": -526131534600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              7,
+              10,
+              1
+            ],
+            "numerator": 452306936256
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              7,
+              7,
+              3
+            ],
+            "numerator": -1515906080640
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              7,
+              4,
+              5
+            ],
+            "numerator": -267825398400
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              7,
+              1,
+              7
+            ],
+            "numerator": 59858904000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              12,
+              0
+            ],
+            "numerator": -38434540032
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              9,
+              2
+            ],
+            "numerator": 2115610917000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              6,
+              4
+            ],
+            "numerator": 2138285943360
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              3,
+              6
+            ],
+            "numerator": 282234061200
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              6,
+              0,
+              8
+            ],
+            "numerator": -2816872800
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              5,
+              11,
+              1
+            ],
+            "numerator": -828977236416
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              5,
+              8,
+              3
+            ],
+            "numerator": -1553848012080
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              5,
+              5,
+              5
+            ],
+            "numerator": -907312129920
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              5,
+              2,
+              7
+            ],
+            "numerator": -55621742400
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              13,
+              0
+            ],
+            "numerator": 108097143840
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              10,
+              2
+            ],
+            "numerator": 151878424320
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              7,
+              4
+            ],
+            "numerator": 363606499200
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              4,
+              6
+            ],
+            "numerator": 156222486000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              4,
+              1,
+              8
+            ],
+            "numerator": 5075469000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              12,
+              1
+            ],
+            "numerator": 120107937600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              9,
+              3
+            ],
+            "numerator": 169252272000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              6,
+              5
+            ],
+            "numerator": 14960013600
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              3,
+              7
+            ],
+            "numerator": -17692920000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              3,
+              0,
+              9
+            ],
+            "numerator": -69972000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              14,
+              0
+            ],
+            "numerator": -22084362720
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              11,
+              2
+            ],
+            "numerator": -81394029360
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              2,
+              8,
+              4
+            ],
+            "numerator": -7302078000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              5,
+              6
+            ],
+            "numerator": -9531685800
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              2,
+              2,
+              8
+            ],
+            "numerator": -359856000
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              13,
+              1
+            ],
+            "numerator": 258296640
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              10,
+              3
+            ],
+            "numerator": 14029585920
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              7,
+              5
+            ],
+            "numerator": 941623200
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              4,
+              7
+            ],
+            "numerator": 1604358000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              1,
+              1,
+              9
+            ],
+            "numerator": -239904000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              15,
+              0
+            ],
+            "numerator": 464933952
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              12,
+              2
+            ],
+            "numerator": 659336160
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              9,
+              4
+            ],
+            "numerator": -413834400
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              6,
+              6
+            ],
+            "numerator": -502798800
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              3,
+              8
+            ],
+            "numerator": 14994000
+          },
+          {
+            "denominator": 11,
+            "exponents": [
+              0,
+              0,
+              10
+            ],
+            "numerator": -29988000
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 30,
+            "scalar_times_euler_determinant": {
+              "denominator": 370872732986526704383682684418732777629591425180130373836566747076682865760,
+              "numerator": -1903750407254465239024799925008859197010505572296569195752161112651
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 15,
+            "scalar_times_euler_determinant": {
+              "denominator": 71725931854448172974857348808481175617557232960716587403459342863475571360,
+              "numerator": -4166869685969985206324181056437257669191991717470099034440869453
+            },
+            "variable": "x2"
+          },
+          {
+            "exponent": 10,
+            "scalar_times_euler_determinant": {
+              "denominator": 56923373006582571285780263723191560778046533622555848282873937205788447760,
+              "numerator": -2140984701384618115806230839406977017161030054764021990320925599803
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 30
+      },
+      "expected_colength": 286,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        17,
+        17,
+        18,
+        18,
+        18,
+        17,
+        17,
+        15,
+        14,
+        12,
+        10,
+        8,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            40,
+            35,
+            31
+          ],
+          "exponent": 31,
+          "lower_weight": 30,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            39,
+            35,
+            31
+          ],
+          "exponent": 16,
+          "lower_weight": 30,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            40,
+            36,
+            32
+          ],
+          "exponent": 11,
+          "lower_weight": 30,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    },
+    {
+      "cofactor_mutation_rejected": true,
+      "d": 12,
+      "denominator_support_within_map": {
+        "claim_boundary": "diagnostic only; arbitrary lift denominators need not be intrinsic",
+        "dividing_primes": [
+          {
+            "classification": "BAD",
+            "prime": 2
+          },
+          {
+            "classification": "BAD",
+            "prime": 3
+          },
+          {
+            "classification": "BAD",
+            "prime": 5
+          },
+          {
+            "classification": "BAD",
+            "prime": 7
+          },
+          {
+            "classification": "BAD",
+            "prime": 11
+          },
+          {
+            "classification": "GOOD",
+            "prime": 13
+          },
+          {
+            "classification": "BAD",
+            "prime": 17
+          },
+          {
+            "classification": "BAD",
+            "prime": 19
+          },
+          {
+            "classification": "BAD",
+            "prime": 23
+          },
+          {
+            "classification": "BAD",
+            "prime": 29
+          },
+          {
+            "classification": "BAD",
+            "prime": 31
+          },
+          {
+            "classification": "BAD",
+            "prime": 37
+          },
+          {
+            "classification": "BAD",
+            "prime": 41
+          },
+          {
+            "classification": "BAD",
+            "prime": 43
+          },
+          {
+            "classification": "BAD",
+            "prime": 47
+          },
+          {
+            "classification": "GOOD",
+            "prime": 59
+          },
+          {
+            "classification": "GOOD",
+            "prime": 61
+          },
+          {
+            "classification": "GOOD",
+            "prime": 71
+          },
+          {
+            "classification": "GOOD",
+            "prime": 113
+          },
+          {
+            "classification": "GOOD",
+            "prime": 137
+          },
+          {
+            "classification": "GOOD",
+            "prime": 149
+          },
+          {
+            "classification": "BAD",
+            "prime": 151
+          },
+          {
+            "classification": "BAD",
+            "prime": 257
+          },
+          {
+            "classification": "GOOD",
+            "prime": 277
+          },
+          {
+            "classification": "GOOD",
+            "prime": 379
+          },
+          {
+            "classification": "GOOD",
+            "prime": 659
+          }
+        ],
+        "good_prime_conflicts": [
+          13,
+          59,
+          61,
+          71,
+          113,
+          137,
+          149,
+          277,
+          379,
+          659
+        ]
+      },
+      "euler_jacobian": {
+        "adjugate_identity": true,
+        "determinant": [
+          {
+            "denominator": 13,
+            "exponents": [
+              33,
+              0,
+              0
+            ],
+            "numerator": 1426110659440
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              31,
+              1,
+              0
+            ],
+            "numerator": -12834995934960
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              30,
+              0,
+              1
+            ],
+            "numerator": -2852221318880
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              29,
+              2,
+              0
+            ],
+            "numerator": 53479149729000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              28,
+              1,
+              1
+            ],
+            "numerator": 18062001525864
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              27,
+              3,
+              0
+            ],
+            "numerator": -133521160610352
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              27,
+              0,
+              2
+            ],
+            "numerator": 2400565219872
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              26,
+              2,
+              1
+            ],
+            "numerator": -59651891862480
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              25,
+              4,
+              0
+            ],
+            "numerator": 220474097220528
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              25,
+              1,
+              2
+            ],
+            "numerator": -46993120128
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              24,
+              3,
+              1
+            ],
+            "numerator": 128986324518000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              24,
+              0,
+              3
+            ],
+            "numerator": -4972670685440
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              23,
+              5,
+              0
+            ],
+            "numerator": -252035851526496
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              23,
+              2,
+              2
+            ],
+            "numerator": -32249028687840
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              22,
+              4,
+              1
+            ],
+            "numerator": -14884418118320
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              22,
+              1,
+              3
+            ],
+            "numerator": 29503156178400
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              21,
+              6,
+              0
+            ],
+            "numerator": 202539368728344
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              21,
+              3,
+              2
+            ],
+            "numerator": 87374569326880
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              21,
+              0,
+              4
+            ],
+            "numerator": -337398316736
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              20,
+              5,
+              1
+            ],
+            "numerator": 218074511023992
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              20,
+              2,
+              3
+            ],
+            "numerator": -37855952922720
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              19,
+              7,
+              0
+            ],
+            "numerator": -115573704814800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              19,
+              4,
+              2
+            ],
+            "numerator": -165082914916320
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              19,
+              1,
+              4
+            ],
+            "numerator": -15976734402000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              18,
+              6,
+              1
+            ],
+            "numerator": -167779145183664
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              18,
+              3,
+              3
+            ],
+            "numerator": 104537658000000
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              18,
+              0,
+              5
+            ],
+            "numerator": 722474151840
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              17,
+              8,
+              0
+            ],
+            "numerator": 44655212401632
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              17,
+              5,
+              2
+            ],
+            "numerator": 135706425828768
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              17,
+              2,
+              4
+            ],
+            "numerator": -35387299258920
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              16,
+              7,
+              1
+            ],
+            "numerator": 102530560005360
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              16,
+              4,
+              3
+            ],
+            "numerator": -63890962751520
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              16,
+              1,
+              5
+            ],
+            "numerator": 15495515242200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              15,
+              9,
+              0
+            ],
+            "numerator": -11948511587328
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              15,
+              6,
+              2
+            ],
+            "numerator": -89311957187616
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              15,
+              3,
+              4
+            ],
+            "numerator": 25501653624000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              15,
+              0,
+              6
+            ],
+            "numerator": -5151934703520
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              14,
+              8,
+              1
+            ],
+            "numerator": -46203942186720
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              14,
+              5,
+              3
+            ],
+            "numerator": -9961004338560
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              14,
+              2,
+              5
+            ],
+            "numerator": -26747183743200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              13,
+              10,
+              0
+            ],
+            "numerator": 2724579377856
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              13,
+              7,
+              2
+            ],
+            "numerator": 7032031139520
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              13,
+              4,
+              4
+            ],
+            "numerator": 106452110524800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              13,
+              1,
+              6
+            ],
+            "numerator": 13269594528000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              12,
+              9,
+              1
+            ],
+            "numerator": -6184873509600
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              12,
+              6,
+              3
+            ],
+            "numerator": -162493839010080
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              12,
+              3,
+              5
+            ],
+            "numerator": -99725649581760
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              12,
+              0,
+              7
+            ],
+            "numerator": -1674476496480
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              11,
+              11,
+              0
+            ],
+            "numerator": 2172921011136
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              11,
+              8,
+              2
+            ],
+            "numerator": 65060738156160
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              11,
+              5,
+              4
+            ],
+            "numerator": 159138741192768
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              11,
+              2,
+              6
+            ],
+            "numerator": 41501174797440
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              10,
+              10,
+              1
+            ],
+            "numerator": -21780970649472
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              10,
+              7,
+              3
+            ],
+            "numerator": -76961782200960
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              10,
+              4,
+              5
+            ],
+            "numerator": -60139704834720
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              10,
+              1,
+              7
+            ],
+            "numerator": -8399466730080
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              9,
+              12,
+              0
+            ],
+            "numerator": 2004869527200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              9,
+              9,
+              2
+            ],
+            "numerator": 12368671661760
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              9,
+              6,
+              4
+            ],
+            "numerator": -47680940359200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              9,
+              3,
+              6
+            ],
+            "numerator": 3819377066400
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              9,
+              0,
+              8
+            ],
+            "numerator": 647487738000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              8,
+              11,
+              1
+            ],
+            "numerator": 4073077607616
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              8,
+              8,
+              3
+            ],
+            "numerator": 9353237616000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              8,
+              5,
+              5
+            ],
+            "numerator": 78986988635040
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              8,
+              2,
+              7
+            ],
+            "numerator": 2797668892800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              7,
+              13,
+              0
+            ],
+            "numerator": -864264774528
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              7,
+              10,
+              2
+            ],
+            "numerator": -81094909033152
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              7,
+              7,
+              4
+            ],
+            "numerator": -113340270435840
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              7,
+              4,
+              6
+            ],
+            "numerator": -36552348230400
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              7,
+              1,
+              8
+            ],
+            "numerator": -43884072000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              6,
+              12,
+              1
+            ],
+            "numerator": 23169651402240
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              6,
+              9,
+              3
+            ],
+            "numerator": 41944190434560
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              6,
+              6,
+              5
+            ],
+            "numerator": 40093911446400
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              6,
+              3,
+              7
+            ],
+            "numerator": 7808834563200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              6,
+              0,
+              9
+            ],
+            "numerator": 30283963200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              5,
+              14,
+              0
+            ],
+            "numerator": -2542225639968
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              5,
+              11,
+              2
+            ],
+            "numerator": 7857744349824
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              5,
+              8,
+              4
+            ],
+            "numerator": 4756084560000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              5,
+              5,
+              6
+            ],
+            "numerator": -4945900962240
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              5,
+              2,
+              8
+            ],
+            "numerator": -68554036800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              4,
+              13,
+              1
+            ],
+            "numerator": -7143465054240
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              4,
+              10,
+              3
+            ],
+            "numerator": -16737574829760
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              4,
+              7,
+              5
+            ],
+            "numerator": -9185766508800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              4,
+              4,
+              7
+            ],
+            "numerator": -16841995200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              4,
+              1,
+              9
+            ],
+            "numerator": 42579410400
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              3,
+              15,
+              0
+            ],
+            "numerator": 1008308903616
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              3,
+              12,
+              2
+            ],
+            "numerator": 4322399230080
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              3,
+              9,
+              4
+            ],
+            "numerator": 6685955812800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              3,
+              6,
+              6
+            ],
+            "numerator": 2451973104000
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              3,
+              3,
+              8
+            ],
+            "numerator": 112200897600
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              3,
+              0,
+              10
+            ],
+            "numerator": -1344196800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              2,
+              14,
+              1
+            ],
+            "numerator": 107266904640
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              2,
+              11,
+              3
+            ],
+            "numerator": -464174876160
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              2,
+              8,
+              5
+            ],
+            "numerator": -961322109120
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              2,
+              5,
+              7
+            ],
+            "numerator": -319238832960
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              2,
+              2,
+              9
+            ],
+            "numerator": 2609323200
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              1,
+              16,
+              0
+            ],
+            "numerator": -64360142784
+          },
+          {
+            "denominator": 1,
+            "exponents": [
+              1,
+              13,
+              2
+            ],
+            "numerator": -16130361600
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              1,
+              10,
+              4
+            ],
+            "numerator": -116390047392
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              1,
+              7,
+              6
+            ],
+            "numerator": 52992982080
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              1,
+              4,
+              8
+            ],
+            "numerator": 11979165600
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              1,
+              1,
+              10
+            ],
+            "numerator": 2134900800
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              0,
+              15,
+              1
+            ],
+            "numerator": 11237485248
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              0,
+              12,
+              3
+            ],
+            "numerator": 30236520960
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              0,
+              9,
+              5
+            ],
+            "numerator": 16201524960
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              0,
+              6,
+              7
+            ],
+            "numerator": 442794240
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              0,
+              3,
+              9
+            ],
+            "numerator": -711633600
+          },
+          {
+            "denominator": 13,
+            "exponents": [
+              0,
+              0,
+              11
+            ],
+            "numerator": 237211200
+          }
+        ],
+        "nonzero_socle_class": true,
+        "socle_scalars": [
+          {
+            "exponent": 33,
+            "scalar_times_euler_determinant": {
+              "denominator": 2238395044768647843600090453749024866577194133583414868122757222091272113067320519388000,
+              "numerator": 1580146937828402516390094667771479150349152828352088987409894356135209740443289
+            },
+            "variable": "x1"
+          },
+          {
+            "exponent": 11,
+            "scalar_times_euler_determinant": {
+              "denominator": 4807434769816926522467680249073195036199677175098612054195159288586433365375464664000,
+              "numerator": 24668961636705297854034561680118770057883778213462270053180043667580071265769
+            },
+            "variable": "x3"
+          }
+        ],
+        "weighted_degree": 33
+      },
+      "expected_colength": 364,
+      "hilbert_function": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        19,
+        20,
+        21,
+        21,
+        21,
+        21,
+        20,
+        19,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        {
+          "cofactor_term_counts": [
+            48,
+            43,
+            38
+          ],
+          "exponent": 34,
+          "lower_weight": 33,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x1"
+        },
+        {
+          "cofactor_term_counts": [
+            43,
+            39,
+            35
+          ],
+          "exponent": 17,
+          "lower_weight": 32,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x2"
+        },
+        {
+          "cofactor_term_counts": [
+            48,
+            43,
+            39
+          ],
+          "exponent": 12,
+          "lower_weight": 33,
+          "one_lower_nonmembership": true,
+          "upper_membership": true,
+          "variable": "x3"
+        }
+      ]
+    }
+  ]
+}

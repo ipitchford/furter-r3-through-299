@@ -1,0 +1,24 @@
+{
+  "claim_boundary": "This receipt proves package byte integrity and successful replay from a fresh extraction in the recorded local runtime. Mathematical claims remain bounded by the packaged root receipt and research report.",
+  "inputs_sha256": {
+    "MANIFEST.json": "890a15e131a6bb2757c5c3b6ec34c72c626ebc0a649325f83d602d501ae89e36",
+    "r3-stage0-internal-2026-08-13.zip": "4538ce575a9dc2cbb6b6b4fcd097e1858a4c9a0578e1e101ead5f2f34c7110a9",
+    "r3-stage0-internal-2026-08-13.zip.sha256": "6976dd3187e516ccbc11365858b623c5c7ab40189efdbfbee5e09aac056bbe77",
+    "root-receipt.json": "889fcafed2a980b1d1ec5cbbf526f238321ddf27daef2a641dffcbb39cc26518"
+  },
+  "package_directory_name": "r3-stage0-internal-2026-08-13",
+  "runtime_sha256": {
+    "/Users/admin/Documents/Codex/2026-08-12/he/work/polydegree-flint-venv/bin/python": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56",
+    "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "4f00ea2ad53d62437a6a3946b73c73614a97e8accdc5b96dc095ea1a0d9c6a56",
+    "/opt/homebrew/Cellar/singular/4.4.1p5_3/bin/Singular": "9452d918c2f0525120dd9dbabc9d0c9e7bbbee37e7c2f05b2cadbbf73cc18053"
+  },
+  "schema": "polydegree-r3-stage0-package-verification-v1",
+  "status": "PASS",
+  "summary": {
+    "files": 125,
+    "fresh_extracted_replay": true,
+    "root_status": "PASS",
+    "status": "PASS"
+  },
+  "verifier_sha256": "16d7426b19dc3a21e15a9d366bf49955001ff5b082683de29b4a15368238f3be"
+}

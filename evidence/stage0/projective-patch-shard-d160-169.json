@@ -1,0 +1,1957 @@
+{
+  "cases": [
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 31,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 8,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 52,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 16,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 17,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 20,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 160,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 160,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 160
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 53,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 11,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 37,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 4,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 4,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 21,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 161,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 161,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 161
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 8,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 49,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 24,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 4,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 23,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 162,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 162,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 162
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 40,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 31,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 66,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 21,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 7,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 53,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 163,
+          "prime": 37,
+          "strata": [
+            {
+              "groebner_basis_size": 14,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 163,
+          "prime": 41,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 163
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 13,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 4,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 44,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 5,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 20,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 4,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 45,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 164,
+          "prime": 37,
+          "strata": [
+            {
+              "groebner_basis_size": 8,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 164,
+          "prime": 41,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 164
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 12,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 12,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 45,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 41,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 18,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 36,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 165,
+          "prime": 37,
+          "strata": [
+            {
+              "groebner_basis_size": 8,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 165,
+          "prime": 41,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 165
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 7,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 32,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 30,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 17,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 27,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 166,
+          "prime": 37,
+          "strata": [
+            {
+              "groebner_basis_size": 8,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 166,
+          "prime": 41,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 166
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 16,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 19,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 71,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 36,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 18,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 167,
+          "prime": 37,
+          "strata": [
+            {
+              "groebner_basis_size": 7,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 167,
+          "prime": 41,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 167
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 168,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 168,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 42,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 168,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 2,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 168,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 9,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 168,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 14,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 168,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 168
+    },
+    {
+      "attempts": [
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 2,
+          "strata": [
+            {
+              "groebner_basis_size": 4,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 3,
+          "strata": [
+            {
+              "groebner_basis_size": 31,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 5,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 7,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 11,
+          "strata": [
+            {
+              "groebner_basis_size": 14,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 13,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 3,
+              "remainder_of_one": 1,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 17,
+          "strata": [
+            {
+              "groebner_basis_size": 48,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 19,
+          "strata": [
+            {
+              "groebner_basis_size": 78,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 23,
+          "strata": [
+            {
+              "groebner_basis_size": 23,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 29,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 31,
+          "strata": [
+            {
+              "groebner_basis_size": 9,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "BAD",
+          "d": 169,
+          "prime": 37,
+          "strata": [
+            {
+              "groebner_basis_size": 6,
+              "remainder_of_one": 1,
+              "stratum": "x1_nonzero",
+              "unit_ideal": false
+            }
+          ]
+        },
+        {
+          "classification": "GOOD",
+          "d": 169,
+          "prime": 41,
+          "strata": [
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_zero_x2_nonzero",
+              "unit_ideal": true
+            },
+            {
+              "groebner_basis_size": 1,
+              "remainder_of_one": 0,
+              "stratum": "x1_x2_zero_x3_nonzero",
+              "unit_ideal": true
+            }
+          ]
+        }
+      ],
+      "d": 169
+    }
+  ],
+  "claim_boundary": "A GOOD row is an exact empty weighted-projective special-fibre certificate from the complete three-stratum cover. BAD rows certify a nonempty special fibre only; TIMEOUT rows carry no mathematical conclusion.",
+  "controls": {
+    "baseline_d2_p5": {
+      "classification": "GOOD",
+      "d": 2,
+      "prime": 5,
+      "strata": [
+        {
+          "groebner_basis_size": 1,
+          "remainder_of_one": 0,
+          "stratum": "x1_nonzero",
+          "unit_ideal": true
+        },
+        {
+          "groebner_basis_size": 1,
+          "remainder_of_one": 0,
+          "stratum": "x1_zero_x2_nonzero",
+          "unit_ideal": true
+        },
+        {
+          "groebner_basis_size": 1,
+          "remainder_of_one": 0,
+          "stratum": "x1_x2_zero_x3_nonzero",
+          "unit_ideal": true
+        }
+      ]
+    },
+    "stratified_cover_complete": true,
+    "zero_third_mutation_d2_p5": {
+      "classification": "BAD",
+      "d": 2,
+      "prime": 5,
+      "strata": [
+        {
+          "groebner_basis_size": 3,
+          "remainder_of_one": 1,
+          "stratum": "x1_nonzero",
+          "unit_ideal": false
+        }
+      ]
+    }
+  },
+  "counts": {
+    "attempts": 117,
+    "bad": 107,
+    "degrees": 10,
+    "good": 10,
+    "timeout": 0
+  },
+  "cover": [
+    "x1_nonzero",
+    "x1_zero_x2_nonzero",
+    "x1_x2_zero_x3_nonzero"
+  ],
+  "environment": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6",
+    "singular": "Singular for arm64-Darwin version 4.4.1 (44105, 64 bit) Nov 11 2025 16:12:34"
+  },
+  "good_degree_coverage": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169
+  ],
+  "parameters": {
+    "d_max": 169,
+    "d_min": 160,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149,
+      151,
+      157,
+      163,
+      167,
+      173,
+      179,
+      181,
+      191,
+      193,
+      197,
+      199,
+      211,
+      223,
+      227,
+      229,
+      233,
+      239,
+      241,
+      251,
+      257,
+      263,
+      269,
+      271,
+      277,
+      281,
+      283,
+      293,
+      307,
+      311,
+      313,
+      317,
+      331,
+      337,
+      347,
+      349,
+      353,
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397,
+      401,
+      409,
+      419,
+      421,
+      431,
+      433,
+      439,
+      443,
+      449,
+      457,
+      461,
+      463,
+      467,
+      479,
+      487,
+      491,
+      499,
+      503,
+      509,
+      521,
+      523,
+      541,
+      547,
+      557,
+      563,
+      569,
+      571,
+      577,
+      587,
+      593,
+      599,
+      601,
+      607,
+      613,
+      617,
+      619,
+      631,
+      641,
+      643,
+      647,
+      653,
+      659,
+      661,
+      673,
+      677,
+      683,
+      691,
+      701,
+      709,
+      719,
+      727,
+      733,
+      739,
+      743,
+      751,
+      757,
+      761,
+      769,
+      773,
+      787,
+      797,
+      809,
+      811,
+      821,
+      823,
+      827,
+      829,
+      839,
+      853,
+      857,
+      859,
+      863,
+      877,
+      881,
+      883,
+      887,
+      907,
+      911,
+      919,
+      929,
+      937,
+      941,
+      947,
+      953,
+      967,
+      971,
+      977,
+      983,
+      991,
+      997
+    ],
+    "selection": "first completed GOOD after exact BAD rows and skipped timeouts",
+    "timeout_seconds_per_stratum": 120.0
+  },
+  "runtime_sha256": {
+    "/opt/homebrew/Cellar/singular/4.4.1p5_3/bin/Singular": "9452d918c2f0525120dd9dbabc9d0c9e7bbbee37e7c2f05b2cadbbf73cc18053"
+  },
+  "schema": "polydegree-r3-projective-patch-screen-v1",
+  "source_sha256": {
+    "projective_patch_screen.py": "efac07ea4519814b76d95baae6de585787879c3c33d313364ce0a582dbf24598",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff"
+  },
+  "status": "PASS"
+}

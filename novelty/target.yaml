@@ -1,0 +1,66 @@
+target_id: furter-r3-through-299
+search_date: 2026-08-14
+intended_contribution_unit: theorem
+claim:
+  exact_statement: |
+    For every integer d with 2 <= d <= 300, let
+    I_d=(g_{d,3},g_{d+1,3},g_{d+2,3}) in Q[x_1,x_2,x_3], where g_{k,3}
+    is the coefficient of X^{k+1} in the compositional inverse of
+    X(1+x_1 X+x_2 X^2+x_3 X^3). Then sqrt(I_d)=(x_1,x_2,x_3).
+    Equivalently, Furter's R(3,n) holds for every 1 <= n <= 299.
+  exclusions:
+    - No assertion for n >= 300.
+    - No proof of universal Furter R(3).
+    - No proof of the unrestricted Strong Factorial Conjecture.
+    - No claim that the corresponding Polydegree consequences are the first proof of the full e=3 column.
+source:
+  originating_reference: "Furter (2015), Polynomial composition rigidity and plane polynomial automorphisms, Conjecture R(m,n), Lemma 2, Theorem B"
+  url: "https://doi.org/10.1112/jlms/jdu064"
+normalisation:
+  indices: "publication window d equals Furter one-map index n+1; hence d=2..300 corresponds to n=1..299"
+  scaling: "weights deg(x_i)=i; generators are the integral inverse-series coefficients g_{d,3}"
+  basis_order: "(x_1,x_2,x_3), then consecutive window (g_{d,3},g_{d+1,3},g_{d+2,3})"
+  symmetries:
+    - "Furter's equivalence between one-map tilde R(3,n) and two-map R(3,n)"
+    - "length-two Polydegree reversal between (4,k) and (k,4)"
+sequences:
+  - name: certified_window_indices
+    exact_values: ["1", "2", "...", "299"]
+    natural_scalings: ["d=n+1"]
+  - name: normalized_resultant_pilot_range
+    exact_values: ["R_2", "R_3", "...", "R_25"]
+    natural_scalings: ["primitive weighted resultant normalization"]
+generating_functions:
+  - name: inverse_series
+    expression: "G=w-x_1G^2-x_2G^3-x_3G^4"
+    variables: [w, x_1, x_2, x_3]
+matrices:
+  - name: weighted_Euler_matrix
+    entries:
+      - ["(1/d) d/dx_1 g_d", "(2/d) d/dx_2 g_d", "(3/d) d/dx_3 g_d"]
+      - ["(1/(d+1)) d/dx_1 g_(d+1)", "(2/(d+1)) d/dx_2 g_(d+1)", "(3/(d+1)) d/dx_3 g_(d+1)"]
+      - ["(1/(d+2)) d/dx_1 g_(d+2)", "(2/(d+2)) d/dx_2 g_(d+2)", "(3/(d+2)) d/dx_3 g_(d+2)"]
+aliases:
+  analysis:
+    - formal compositional inverse coefficients
+    - Lagrange inversion
+  probability: []
+  combinatorics:
+    - multinomial coefficients
+    - Kummer carries
+    - Fuss-Catalan specialization
+  mathematical_physics: []
+  statistics_optimisation_ml: []
+known_invariants:
+  weighted_degrees: ["d", "d+1", "d+2"]
+  complete_intersection_length: "d(d+1)(d+2)/6"
+  socle_degree: "3d-3"
+  fixed_prime_zero_band: "g_{n,3}=0 mod p when n=-k mod p and 2<=k<=floor((p+2)/4), p>=7"
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora:
+    - Crossref and publisher DOI pages
+    - arXiv
+    - author-hosted primary manuscripts
+    - broad web index for exact formula and title searches
+

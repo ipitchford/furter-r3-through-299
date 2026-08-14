@@ -1,0 +1,117 @@
+{
+  "claim_boundary": "Independent sparse expansion of the displayed finite-field membership identities only; no all-degree transition theorem is claimed.",
+  "cofactor_mutation_rejected": true,
+  "d_max": 8,
+  "d_min": 2,
+  "environment": {
+    "python": "3.14.6"
+  },
+  "formula_independence": {
+    "checked_n": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "coefficient_mutation_rejected": true,
+    "method": "formal compositional reversion in SymPy over ZZ"
+  },
+  "inputs_sha256": {
+    "known-map-d2-49-p997-verification.json": "11500ed52286adf2356c851a1451a7420925f1da95f5f99fc376288972116689",
+    "known-map-d2-49-p997.json": "4051bfdae189b835c0fdb5053aaf9204c2f085207fa0465fbd65e5f964115739",
+    "modular-radical-certificates-d2-8-opt.json": "8b95ba79991fea23cef11da9fc7642e00e7b74ccf20472c34a0408fcea0937d9",
+    "modular-radical-certificates-d2-8.json": "8b95ba79991fea23cef11da9fc7642e00e7b74ccf20472c34a0408fcea0937d9"
+  },
+  "runtime_sha256": {
+    "Singular": "9452d918c2f0525120dd9dbabc9d0c9e7bbbee37e7c2f05b2cadbbf73cc18053"
+  },
+  "schema": "polydegree-r3-modular-radical-certificate-verification-v1",
+  "source_sha256": {
+    "analyze_good_prime_frontier.py": "8d4ecf5a9b55dc4fd011cc84f7a0065fd62f56395c87cd39e8d534a84b3af633",
+    "extract_modular_radical_certificates.py": "dce0e26f6d15bdbfbf39a0c77b3611ad16d9fb77860129cc86bbf5aa91e547b5",
+    "modular_colength.py": "85f72c264eec7a9e40723ea473899cf0389bd1bed372c78a70b4004d5a0f7fe4",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff",
+    "verify_colength.py": "ba3e4c694f772a02691ed69a8a2638f41568ab840b5c95dfe5b426e299fd2736",
+    "verify_modular_radical_certificates.py": "4c2b338d714a84d535390cb0c5713bac4ee0280c71fa70b547877c21e50dc136"
+  },
+  "status": "PASS",
+  "summary": [
+    {
+      "cofactor_terms": 9,
+      "d": 2,
+      "prime": 3,
+      "target_exponents": [
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "cofactor_terms": 12,
+      "d": 3,
+      "prime": 5,
+      "target_exponents": [
+        7,
+        4,
+        3
+      ]
+    },
+    {
+      "cofactor_terms": 38,
+      "d": 4,
+      "prime": 5,
+      "target_exponents": [
+        10,
+        5,
+        4
+      ]
+    },
+    {
+      "cofactor_terms": 51,
+      "d": 5,
+      "prime": 5,
+      "target_exponents": [
+        13,
+        7,
+        5
+      ]
+    },
+    {
+      "cofactor_terms": 80,
+      "d": 6,
+      "prime": 7,
+      "target_exponents": [
+        16,
+        8,
+        6
+      ]
+    },
+    {
+      "cofactor_terms": 115,
+      "d": 7,
+      "prime": 7,
+      "target_exponents": [
+        19,
+        10,
+        7
+      ]
+    },
+    {
+      "cofactor_terms": 134,
+      "d": 8,
+      "prime": 7,
+      "target_exponents": [
+        22,
+        11,
+        8
+      ]
+    }
+  ]
+}

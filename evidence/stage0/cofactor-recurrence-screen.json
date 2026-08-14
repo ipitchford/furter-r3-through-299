@@ -1,0 +1,164 @@
+{
+  "claim_boundary": "This exact bounded screen excludes only the displayed d-independent first-order matrix ansatz; it does not exclude higher-order, periodic, d-dependent, or differently normalized cofactor recurrences.",
+  "cofactor_expression_growth": [
+    {
+      "d": 2,
+      "maximum_denominator_bits": 5,
+      "maximum_numerator_bits": 7,
+      "term_counts": {
+        "A": 3,
+        "B": 2,
+        "C": 1
+      }
+    },
+    {
+      "d": 3,
+      "maximum_denominator_bits": 10,
+      "maximum_numerator_bits": 11,
+      "term_counts": {
+        "A": 5,
+        "B": 3,
+        "C": 2
+      }
+    },
+    {
+      "d": 4,
+      "maximum_denominator_bits": 23,
+      "maximum_numerator_bits": 24,
+      "term_counts": {
+        "A": 7,
+        "B": 6,
+        "C": 4
+      }
+    },
+    {
+      "d": 5,
+      "maximum_denominator_bits": 50,
+      "maximum_numerator_bits": 52,
+      "term_counts": {
+        "A": 10,
+        "B": 8,
+        "C": 6
+      }
+    },
+    {
+      "d": 6,
+      "maximum_denominator_bits": 217,
+      "maximum_numerator_bits": 219,
+      "term_counts": {
+        "A": 15,
+        "B": 12,
+        "C": 10
+      }
+    },
+    {
+      "d": 7,
+      "maximum_denominator_bits": 279,
+      "maximum_numerator_bits": 279,
+      "term_counts": {
+        "A": 18,
+        "B": 15,
+        "C": 13
+      }
+    },
+    {
+      "d": 8,
+      "maximum_denominator_bits": 796,
+      "maximum_numerator_bits": 797,
+      "term_counts": {
+        "A": 22,
+        "B": 20,
+        "C": 17
+      }
+    }
+  ],
+  "component_homogeneity_verified": true,
+  "environment": {
+    "python": "3.14.6",
+    "sympy": "1.14.0"
+  },
+  "inputs_sha256": {
+    "cofactors-d2-8-verification.json": "8eb272d3af28ebd398b24ac51a43204d1a21a06acf0625e0895ff6bf656667e4",
+    "cofactors-d2-8.json": "412a783f202c1a8bf3d35f72cf1f49bfb6f0c4687c75d1b24ecb8eb8588b2190"
+  },
+  "recurrence_screen": {
+    "ansatz": "H_(d+1)=M(x)H_d with d-independent entries and each entry assigned the unique weighted degree forced by component homogeneity",
+    "full_matrix_recurrence_consistent_on_training": false,
+    "holdout_disposition": "reserved and not fit because the ansatz already fails exactly on training",
+    "reserved_holdout_transition": [
+      7,
+      8
+    ],
+    "row_results": [
+      {
+        "augmented_rank": 10,
+        "coefficient_rank": 9,
+        "consistent_on_training": false,
+        "equation_count": 61,
+        "multiplier_weights_from_A_B_C": [
+          2,
+          3,
+          4
+        ],
+        "target_component": "A",
+        "unknown_count": 9
+      },
+      {
+        "augmented_rank": 7,
+        "coefficient_rank": 6,
+        "consistent_on_training": false,
+        "equation_count": 49,
+        "multiplier_weights_from_A_B_C": [
+          1,
+          2,
+          3
+        ],
+        "target_component": "B",
+        "unknown_count": 6
+      },
+      {
+        "augmented_rank": 5,
+        "coefficient_rank": 4,
+        "consistent_on_training": false,
+        "equation_count": 41,
+        "multiplier_weights_from_A_B_C": [
+          0,
+          1,
+          2
+        ],
+        "target_component": "C",
+        "unknown_count": 4
+      }
+    ],
+    "training_transitions": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  },
+  "schema": "polydegree-r3-cofactor-recurrence-screen-v1",
+  "source_sha256": {
+    "analyze_cofactor_recurrence.py": "6e2f44bd7e8af2d20135c85b2579c34201247f5cad5d445a5efe83c177498263",
+    "extract_cofactors.py": "91035385b6ed4e969fccd95808d99eab09f62bc8d6131df64174e6959cac3f4c",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff",
+    "verify_cofactors.py": "4928533e0f229e4d62779f864451f15ed7b280b4f3718013ac47f85216fd54a2"
+  },
+  "status": "PASS"
+}

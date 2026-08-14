@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this theorem, evidence package, or challenge, please cite this release."
+title: "Exact finite rigidity for Furter's R(3): all windows through n=299"
+type: article
+version: "0.1.0-candidate"
+date-released: 2026-08-14
+authors:
+  - name: Anonymous
+abstract: >-
+  An exact computer-assisted proof of Furter's R(3,n) for every
+  1 <= n <= 299, together with a fixed-prime obstruction and a
+  machine-readable Universal R(3) Challenge.
+keywords:
+  - polynomial composition rigidity
+  - Polydegree Conjecture
+  - Strong Factorial Conjecture
+  - computer-assisted proof
+  - computational commutative algebra
+license: CC0-1.0
+

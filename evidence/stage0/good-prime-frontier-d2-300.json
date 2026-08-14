@@ -1,0 +1,2191 @@
+{
+  "claim_boundary": "Exact finite selected-GOOD-prime frontier through d=300. The d=50..300 selections are not claimed minimal when earlier attempts timed out.",
+  "degree_range": {
+    "count": 299,
+    "d_max": 300,
+    "d_min": 2
+  },
+  "degrees_attaining_largest_selected_prime": [
+    280
+  ],
+  "environment": {
+    "python": "3.14.6"
+  },
+  "inputs_sha256": {
+    "known-map-d2-49-p997-verification.json": "11500ed52286adf2356c851a1451a7420925f1da95f5f99fc376288972116689",
+    "known-map-d2-49-p997.json": "4051bfdae189b835c0fdb5053aaf9204c2f085207fa0465fbd65e5f964115739",
+    "screen-patches-d50-300-verification-opt.json": "9ff5578932f475a6c1ed444f49a88d471c3dcad81f6f3f5bd9e8d108b5ca2ea8",
+    "screen-patches-d50-300-verification.json": "9ff5578932f475a6c1ed444f49a88d471c3dcad81f6f3f5bd9e8d108b5ca2ea8",
+    "screen-patches-d50-300.json": "b89fc7f664b958a2b6b973fbe514e4582c5a29959ae106992419a3b1fd965791"
+  },
+  "largest_selected_good_prime": 127,
+  "negative_controls": {
+    "missing_terminal_degree_rejected": true
+  },
+  "observed_selected_good_primes": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    83,
+    89,
+    97,
+    127
+  ],
+  "patch_bad_attempt_count": 2539,
+  "patch_timeout_attempt_count": 64,
+  "runtime_sha256": {
+    "Singular": "9452d918c2f0525120dd9dbabc9d0c9e7bbbee37e7c2f05b2cadbbf73cc18053"
+  },
+  "schema": "polydegree-r3-combined-good-prime-frontier-v1",
+  "selected_good_prime_by_degree": [
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 2,
+      "prime": 3,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 3,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 4,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 5,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 6,
+      "prime": 7,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 7,
+      "prime": 7,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 8,
+      "prime": 7,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 9,
+      "prime": 41,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 10,
+      "prime": 11,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 11,
+      "prime": 11,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 12,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 13,
+      "prime": 11,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 14,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 15,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 16,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 17,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 18,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 19,
+      "prime": 19,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 20,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 21,
+      "prime": 11,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 22,
+      "prime": 7,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 23,
+      "prime": 11,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 24,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 25,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 26,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 27,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 28,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 29,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 30,
+      "prime": 5,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 31,
+      "prime": 29,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 32,
+      "prime": 29,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 33,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 34,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 35,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 36,
+      "prime": 17,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 37,
+      "prime": 19,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 38,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 39,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 40,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 41,
+      "prime": 13,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 42,
+      "prime": 19,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 43,
+      "prime": 37,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 44,
+      "prime": 37,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 45,
+      "prime": 23,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 46,
+      "prime": 23,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 47,
+      "prime": 23,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 48,
+      "prime": 23,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 0,
+      "d": 49,
+      "prime": 7,
+      "selection_kind": "smallest_in_complete_map",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 3,
+      "d": 50,
+      "prime": 7,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 51,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 52,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 53,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 54,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 3,
+      "d": 55,
+      "prime": 7,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 3,
+      "d": 56,
+      "prime": 7,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 3,
+      "d": 57,
+      "prime": 7,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 58,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 59,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 60,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 61,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 62,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 63,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 64,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 65,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 66,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 67,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 68,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 69,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 70,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 71,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 72,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 73,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 74,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 75,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 76,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 77,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 78,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 79,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 7,
+      "d": 80,
+      "prime": 19,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 81,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 82,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 83,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 84,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 85,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 86,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 87,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 88,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 89,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 90,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 91,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 92,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 93,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 94,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 95,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 96,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 97,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 98,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 99,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 100,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 101,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 102,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 103,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 104,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 105,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 106,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 107,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 108,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 109,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 110,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 111,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 112,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 113,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 114,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 115,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 116,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 117,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 118,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 8,
+      "d": 119,
+      "prime": 23,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 120,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 121,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 122,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 123,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 124,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 125,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 126,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 127,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 128,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 129,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 130,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 131,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 132,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 133,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 134,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 135,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 136,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 137,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 138,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 139,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 140,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 141,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 142,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 143,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 144,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 145,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 146,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 147,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 148,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 149,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 150,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 151,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 152,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 153,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 154,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 2,
+      "d": 155,
+      "prime": 5,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 156,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 157,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 158,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 159,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 160,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 161,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 162,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 163,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 164,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 165,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 166,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 167,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 168,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 169,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 170,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 171,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 172,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 173,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 174,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 175,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 176,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 177,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 178,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 179,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 180,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 181,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 182,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 183,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 184,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 185,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 186,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 187,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 188,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 189,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 190,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 191,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 192,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 193,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 194,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 195,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 196,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 197,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 198,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 199,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 18,
+      "d": 200,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 24,
+      "d": 201,
+      "prime": 97,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 202,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 203,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 204,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 205,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 206,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 207,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 9,
+      "d": 208,
+      "prime": 29,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 209,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 5,
+      "d": 210,
+      "prime": 13,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 211,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 212,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 213,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 214,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 215,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 216,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 217,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 218,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 219,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 220,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 221,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 222,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 223,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 10,
+      "d": 224,
+      "prime": 31,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 225,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 226,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 227,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 228,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 229,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 230,
+      "prime": 37,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 20,
+      "d": 231,
+      "prime": 73,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 20,
+      "d": 232,
+      "prime": 73,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 20,
+      "d": 233,
+      "prime": 73,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 234,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 235,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 236,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 237,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 238,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 239,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 14,
+      "d": 240,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 241,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 242,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 243,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 244,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 245,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 246,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 247,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 248,
+      "prime": 59,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 249,
+      "prime": 61,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 250,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 251,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 252,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 253,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 254,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 255,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 256,
+      "prime": 61,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 257,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 258,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 259,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 19,
+      "d": 260,
+      "prime": 83,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 19,
+      "d": 261,
+      "prime": 83,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 19,
+      "d": 262,
+      "prime": 83,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 263,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 264,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 265,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 4,
+      "d": 266,
+      "prime": 11,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 267,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 268,
+      "prime": 43,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 20,
+      "d": 269,
+      "prime": 83,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 17,
+      "d": 270,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 21,
+      "d": 271,
+      "prime": 89,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 17,
+      "d": 272,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 21,
+      "d": 273,
+      "prime": 89,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 274,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 275,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 276,
+      "prime": 53,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 22,
+      "d": 277,
+      "prime": 89,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 21,
+      "d": 278,
+      "prime": 89,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 21,
+      "d": 279,
+      "prime": 89,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 27,
+      "d": 280,
+      "prime": 127,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 281,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 282,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 283,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 2
+    },
+    {
+      "certified_bad_primes_before_selection": 17,
+      "d": 284,
+      "prime": 67,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 18,
+      "d": 285,
+      "prime": 71,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 286,
+      "prime": 71,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 12,
+      "d": 287,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 288,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 289,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 290,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 6,
+      "d": 291,
+      "prime": 17,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 0
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 292,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 13,
+      "d": 293,
+      "prime": 47,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 17,
+      "d": 294,
+      "prime": 73,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 19,
+      "d": 295,
+      "prime": 97,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 5
+    },
+    {
+      "certified_bad_primes_before_selection": 11,
+      "d": 296,
+      "prime": 41,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 297,
+      "prime": 59,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 1
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 298,
+      "prime": 71,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 16,
+      "d": 299,
+      "prime": 71,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 3
+    },
+    {
+      "certified_bad_primes_before_selection": 15,
+      "d": 300,
+      "prime": 71,
+      "selection_kind": "first_completed_after_bad_and_timeout_attempts",
+      "timeouts_before_selection": 4
+    }
+  ],
+  "selected_good_prime_histogram": {
+    "11": 28,
+    "127": 1,
+    "13": 23,
+    "17": 21,
+    "19": 13,
+    "23": 20,
+    "29": 24,
+    "3": 1,
+    "31": 35,
+    "37": 16,
+    "41": 23,
+    "43": 13,
+    "47": 18,
+    "5": 16,
+    "53": 7,
+    "59": 2,
+    "61": 2,
+    "67": 7,
+    "7": 9,
+    "71": 5,
+    "73": 4,
+    "83": 4,
+    "89": 5,
+    "97": 2
+  },
+  "selection_calibration": {
+    "d2_49": "exact smallest GOOD prime in the full p<=997 map",
+    "d50_300": "first completed GOOD after exact BAD rows and skipped timeouts; not necessarily the smallest GOOD prime"
+  },
+  "source_sha256": {
+    "analyze_combined_good_prime_frontier.py": "b596ef2bc59b46df0870ddc9f5ae987c5ed818078c45fb17f63d2c74091259f4",
+    "analyze_good_prime_frontier.py": "8d4ecf5a9b55dc4fd011cc84f7a0065fd62f56395c87cd39e8d534a84b3af633",
+    "projective_patch_screen.py": "efac07ea4519814b76d95baae6de585787879c3c33d313364ce0a582dbf24598",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff",
+    "verify_colength.py": "ba3e4c694f772a02691ed69a8a2638f41568ab840b5c95dfe5b426e299fd2736",
+    "verify_projective_patch_screen.py": "16013782e1a2d9a037af7fce3f74f087633c42dc95000d34cf410bb0c14310ee"
+  },
+  "status": "PASS"
+}

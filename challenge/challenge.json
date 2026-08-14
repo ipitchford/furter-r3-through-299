@@ -1,0 +1,119 @@
+{
+  "schema": "universal-r3-challenge-v1",
+  "version": "0.1.0-candidate",
+  "date": "2026-08-14",
+  "title": "Universal R(3) Challenge",
+  "creator": "Anonymous",
+  "status": "open-research-challenge",
+  "claim_boundary": {
+    "proved": "R(3,n) for every integer 1 <= n <= 299",
+    "open": "R(3,n) for all n >= 1",
+    "not_claimed": [
+      "unrestricted Strong Factorial Conjecture",
+      "general Polydegree Conjecture",
+      "formal verification",
+      "independent specialist reproduction"
+    ]
+  },
+  "normalization": {
+    "ring": "Q[x1,x2,x3]",
+    "weights": {"x1": 1, "x2": 2, "x3": 3},
+    "inverse_equation": "G = w - x1*G^2 - x2*G^3 - x3*G^4",
+    "coefficient_definition": "g[n] = coefficient of w^(n+1) in G",
+    "window_ideal": "I[d] = (g[d],g[d+1],g[d+2])",
+    "universal_target": "radical(I[d]) = (x1,x2,x3) for every d >= 2",
+    "furter_index": "n=d-1"
+  },
+  "completed_benchmark": {
+    "d_range": [2, 300],
+    "furter_n_range": [1, 299],
+    "root_receipt": "evidence/stage0/root-receipt.json",
+    "archive_verification": "evidence/r3-stage0-internal-2026-08-13.verification.json",
+    "evidence_archive": "r3-stage0-internal-2026-08-13.zip",
+    "evidence_archive_sha256": "4538ce575a9dc2cbb6b6b4fcd097e1858a4c9a0578e1e101ead5f2f34c7110a9"
+  },
+  "routes": [
+    {
+      "id": "canonical-euler-socle",
+      "rank": 1,
+      "objective": "Prove two canonical quotient identities for every d >= 2.",
+      "definitions": {
+        "matrix": "M[d][i,j] = j/(d+i-1) * partial(g[d+i-1],x[j]), 1<=i,j<=3",
+        "delta": "Delta[d] = det(M[d])"
+      },
+      "obligations": [
+        "Prove x1^(3d-3) - lambda[d]*Delta[d] belongs to I[d] for every d>=2.",
+        "Prove x3^(d-1) - nu[d]*Delta[d] belongs to I[d] for every d>=2.",
+        "Prove lambda[d] and nu[d] are nonzero for every d>=2.",
+        "Connect the identities to the distinguished inverse-series initial state; a recurrence valid only off an exceptional branch is insufficient."
+      ],
+      "finite_evidence": {
+        "verified_d_range": [2, 12],
+        "memberships": 33,
+        "one_lower_nonmemberships": 33,
+        "receipt": "evidence/stage0/rational-radical-certificates-d2-12-verification.json"
+      },
+      "falsifiers": [
+        "An exact degree d where either canonical socle monomial is zero while Delta[d] is nonzero in the quotient.",
+        "A proof that one required scalar vanishes for some d."
+      ]
+    },
+    {
+      "id": "finite-prime-good-automaton",
+      "rank": 2,
+      "objective": "Construct a finite set of primes whose product automaton supplies a same-prime GOOD fibre for every d.",
+      "obligations": [
+        "Give exact Cartier or section transitions for the coefficient array of G over each selected prime.",
+        "Lift coefficient states to a finite, fail-closed ideal certificate such as a bounded Groebner signature or explicit pure-power identities.",
+        "Prove that every reachable product state has at least one GOOD prime component.",
+        "Keep all projective strata for one degree inside one prime-labelled certificate."
+      ],
+      "known_obstruction": {
+        "statement": "For p>=7, g[n]=0 mod p if n=-k mod p and 2<=k<=floor((p+2)/4).",
+        "consequence": "Every fixed prime has infinitely many BAD windows; a one-prime automaton cannot solve the challenge."
+      },
+      "finite_evidence": {
+        "observed_prime_set": [3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,83,89,97,127],
+        "largest_selected_prime": 127,
+        "claim_boundary": "observed through d=300 only; not a universal cover"
+      },
+      "falsifiers": [
+        "A reachable product state that is BAD at every proposed prime.",
+        "A transition certificate that checks rational points only rather than geometric points over the algebraic closure.",
+        "A certificate assembled from different primes on different projective strata."
+      ]
+    },
+    {
+      "id": "exceptional-initial-state",
+      "rank": 3,
+      "objective": "Explain why the distinguished inverse-series solution cannot occupy Furter's exceptional recurrence mode.",
+      "obligations": [
+        "Use the global initial state or a new invariant; universal pole-branch recurrences alone retain the exceptional factor.",
+        "Derive an all-degree conclusion for the actual inverse-coefficient sequence, not for generic recurrence solutions."
+      ],
+      "falsifiers": [
+        "A purported desingularization that only divides by the exceptional factor without proving compatibility at its zero.",
+        "An argument that assumes the wanted nonvanishing at the exceptional index."
+      ]
+    }
+  ],
+  "acceptance": {
+    "universal_solution": [
+      "A human-checkable proof of radical(I[d])=(x1,x2,x3) for every d>=2.",
+      "Every computer-generated finite object in the proof has an exact checker and a frozen manifest.",
+      "No floating-point or probabilistic acceptance path is proof-critical.",
+      "The index and consequence dictionary is checked directly against Furter and LPS."
+    ],
+    "valuable_partial_result": [
+      "A proved all-degree theorem closing one obligation above.",
+      "A rigorously excluded structural route with explicit ansatz bounds.",
+      "Portable exact certificates extending the finite benchmark beyond d=300."
+    ]
+  },
+  "references": [
+    {"id": "Furter2015", "doi": "10.1112/jlms/jdu064"},
+    {"id": "LPS2019", "doi": "10.1016/j.jpaa.2019.04.002"},
+    {"id": "EdoVdE2014", "doi": "10.1016/j.jalgebra.2013.09.011"}
+  ]
+}
+

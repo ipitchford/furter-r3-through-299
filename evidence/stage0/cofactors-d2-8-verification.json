@@ -1,0 +1,95 @@
+{
+  "claim_boundary": "Sparse convolution independently verifies the displayed x3^d identities. The lower-power nonmembership flags are producer diagnostics and are not independently certified by this receipt.",
+  "coefficient_mutation_rejected": true,
+  "environment": {
+    "python": "3.14.6"
+  },
+  "formula_independence": {
+    "checked_n": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "coefficient_mutation_rejected": true,
+    "method": "formal compositional reversion in SymPy over ZZ"
+  },
+  "input_sha256": "412a783f202c1a8bf3d35f72cf1f49bfb6f0c4687c75d1b24ecb8eb8588b2190",
+  "method": "formal reversion through g_10 plus independent sparse rational convolution",
+  "ordinary_optimized_timing_free_parity": true,
+  "peer_sha256": "b4221b007b1ae5b4975746a27dd2f9bd2507766e3e3bdc7b85d67fb4f178eaff",
+  "producer_lower_power_diagnostics_present": true,
+  "schema": "polydegree-r3-x3-cofactor-verification-v1",
+  "source_sha256": {
+    "extract_cofactors.py": "91035385b6ed4e969fccd95808d99eab09f62bc8d6131df64174e6959cac3f4c",
+    "r3_common.py": "66bf861019846eec8a0bcc7fbc40772e692ef46a78597ea4642244c6409115ff",
+    "verify_cofactors.py": "4928533e0f229e4d62779f864451f15ed7b280b4f3718013ac47f85216fd54a2",
+    "verify_colength.py": "ba3e4c694f772a02691ed69a8a2638f41568ab840b5c95dfe5b426e299fd2736"
+  },
+  "status": "PASS",
+  "verified": [
+    {
+      "d": 2,
+      "term_counts": {
+        "A": 3,
+        "B": 2,
+        "C": 1
+      }
+    },
+    {
+      "d": 3,
+      "term_counts": {
+        "A": 5,
+        "B": 3,
+        "C": 2
+      }
+    },
+    {
+      "d": 4,
+      "term_counts": {
+        "A": 7,
+        "B": 6,
+        "C": 4
+      }
+    },
+    {
+      "d": 5,
+      "term_counts": {
+        "A": 10,
+        "B": 8,
+        "C": 6
+      }
+    },
+    {
+      "d": 6,
+      "term_counts": {
+        "A": 15,
+        "B": 12,
+        "C": 10
+      }
+    },
+    {
+      "d": 7,
+      "term_counts": {
+        "A": 18,
+        "B": 15,
+        "C": 13
+      }
+    },
+    {
+      "d": 8,
+      "term_counts": {
+        "A": 22,
+        "B": 20,
+        "C": 17
+      }
+    }
+  ]
+}
