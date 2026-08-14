@@ -2,8 +2,11 @@ cff-version: 1.2.0
 message: "If you use this theorem, evidence package, or challenge, please cite this release."
 title: "Exact finite rigidity for Furter's R(3): all windows through n=299"
 type: article
-version: "0.1.0-candidate"
+version: "0.1.0"
 date-released: 2026-08-14
+doi: 10.5281/zenodo.21939362
+url: "https://doi.org/10.5281/zenodo.21939362"
+repository-code: "https://github.com/ipitchford/furter-r3-through-299"
 authors:
   - name: Anonymous
 abstract: >-
@@ -17,4 +20,3 @@ keywords:
   - computer-assisted proof
   - computational commutative algebra
 license: CC0-1.0
-

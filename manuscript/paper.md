@@ -486,7 +486,9 @@ All proof scripts, receipts, controls, manifests, the frozen replay
 archive, and the machine-readable challenge are included with the public
 release. The archive is identified by SHA-256 in its manifest and
 external verification receipt. Public repository, release, and DOI links
-are inserted in the versioned record at publication.
+are fixed in the versioned record: the source and replay package is at
+<https://github.com/ipitchford/furter-r3-through-299>, and the permanent
+release is <https://doi.org/10.5281/zenodo.21939362>.
 
 # Ethics statement
 

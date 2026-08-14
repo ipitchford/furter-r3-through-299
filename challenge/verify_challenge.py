@@ -28,7 +28,12 @@ def sha256(path: Path) -> str:
 def main() -> None:
     payload = json.loads(CHALLENGE.read_text(encoding="utf-8"))
     require(payload["schema"] == "universal-r3-challenge-v1", "wrong schema")
+    require(payload["version"] == "0.1.0", "release version drift")
     require(payload["creator"] == "Anonymous", "creator drift")
+    require(payload["release"] == {
+        "doi": "10.5281/zenodo.21939362",
+        "repository": "https://github.com/ipitchford/furter-r3-through-299",
+    }, "release identity drift")
     require(payload["claim_boundary"]["proved"] ==
             "R(3,n) for every integer 1 <= n <= 299", "proved range drift")
     require(payload["claim_boundary"]["open"] ==

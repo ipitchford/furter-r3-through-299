@@ -44,6 +44,11 @@ def main() -> None:
         require((ROOT / relative).is_file(), f"missing required file {relative}")
 
     require(sha256(ARCHIVE) == EXPECTED_ARCHIVE_SHA256, "frozen archive hash drift")
+    citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+    require("doi: 10.5281/zenodo.21939362" in citation,
+            "reserved DOI missing from citation metadata")
+    require("https://github.com/ipitchford/furter-r3-through-299" in citation,
+            "public repository missing from citation metadata")
     root = json.loads((ROOT / "evidence/stage0/root-receipt.json").read_text())
     require(root["status"] == "PASS", "root receipt is not PASS")
     require(root["finite_rigidity_windows"] == {"count": 299, "d_max": 300,
@@ -79,4 +84,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

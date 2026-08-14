@@ -7,6 +7,9 @@ This repository accompanies the unrefereed candidate:
 
 Universal `R(3)` remains open.
 
+- DOI: <https://doi.org/10.5281/zenodo.21939362>
+- Repository: <https://github.com/ipitchford/furter-r3-through-299>
+
 The proof is exact and computer-assisted. The finite range is certified by
 same-prime GOOD special fibres and transferred to characteristic zero by
 properness. The repository also contains a machine-readable Universal `R(3)`
@@ -40,4 +43,3 @@ This is an unrefereed candidate, not a proof of universal `R(3)`, the
 unrestricted Strong Factorial Conjecture, or the general Polydegree
 Conjecture. Internal cross-model review and exact replay are not specialist
 peer review or independent reproduction.
-

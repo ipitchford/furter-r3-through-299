@@ -7,9 +7,9 @@
       "sha256": "76e1e0601b11da80fac3dd6cc769bc89657fa9d6332934ae05947a43829c2f39"
     },
     {
-      "bytes": 658,
+      "bytes": 794,
       "path": "CITATION.cff",
-      "sha256": "054e13dbd660865eab214089a11eb9a7bec04a37c919fcbeb4bda343d51ad520"
+      "sha256": "a5408e20a461160da3f426d8573f73085ee99b4ca0ebc591d81f8875e0a9530d"
     },
     {
       "bytes": 1270,
@@ -42,14 +42,14 @@
       "sha256": "31424400fe51a9ee7d26341c4a1641b81749e06904f9c680019831028aa35758"
     },
     {
-      "bytes": 1587,
+      "bytes": 1704,
       "path": "README.md",
-      "sha256": "639dbbc9e455856540c6f52b0c745c6fa930a00554a2fcd0641d34251d49affc"
+      "sha256": "8001952d0508a70b1b72eb4cfba7a15f3fb27868885e0686622a00d116793fe8"
     },
     {
-      "bytes": 837,
+      "bytes": 961,
       "path": "RELEASE_NOTES.md",
-      "sha256": "10afbd627ba4c270282819dc2468d947ee7bc3dd9ed8f1f6eb09ea82e3b18e11"
+      "sha256": "b37f77e359c74cf01532a92b1fe16e5651bd0fc869b457864757112b7ec4a81e"
     },
     {
       "bytes": 390,
@@ -57,9 +57,9 @@
       "sha256": "ed419321cab94389eb3ed2709a1d46ffec3f2c4539bddfc0c4032391cce5d6ae"
     },
     {
-      "bytes": 1428,
+      "bytes": 1417,
       "path": "build_manifest.py",
-      "sha256": "ee846b47c8f65b9c740e5d81a96d87ea79d00ccb87073ddde33191ca231daa1f"
+      "sha256": "39ab328aeb084d7f65f6a706d12cc56c36fe766270dcbe18800f9bfdb15c1194"
     },
     {
       "bytes": 838,
@@ -67,14 +67,14 @@
       "sha256": "45892ffbe675e514271af29f51535eacaccfb4b09f3f356ee0f27f0e52a27dff"
     },
     {
-      "bytes": 5549,
+      "bytes": 5668,
       "path": "challenge/challenge.json",
-      "sha256": "67c36b524886541a747dd5dd1722fabca59c676128e447c9a16601fa77794dbb"
+      "sha256": "df2364ea98dec5ab78508d009d486fa300b2722b0657fb25f03a1e1bd676097d"
     },
     {
-      "bytes": 3283,
+      "bytes": 3539,
       "path": "challenge/verify_challenge.py",
-      "sha256": "95e235afe91dafcb11d825219c71cc3d730ed8cd55fb05f61b89d0cfefb6d50f"
+      "sha256": "5d741d0b867126b684432db86cb02dd473a5a07cc6aac84d5bc4b30fe974597b"
     },
     {
       "bytes": 1497,
@@ -712,19 +712,19 @@
       "sha256": "6a378c03e2a7ccfa03ec60215111cef3074386e27b2b7191c50356119b8b1906"
     },
     {
-      "bytes": 20628,
+      "bytes": 20773,
       "path": "manuscript/paper.md",
-      "sha256": "0dd3bd3aae1bca1e209faf00cca968856d1ba6a3180fe6aff943971e67ce40de"
+      "sha256": "4db391db7440c63a9227ebec282986ed1ea06ffcef397f1fe81dd0babcad4b38"
     },
     {
-      "bytes": 339497,
+      "bytes": 340213,
       "path": "manuscript/paper.pdf",
-      "sha256": "fd22197fe73b6f93db7b1d5e574d2d4bc70f1797aa487f67c12d8d52eb47c503"
+      "sha256": "de32ddd4f32dbf55c818726358c7ddc2eefd4f7d48c6cd1ad16b229c6d4aece7"
     },
     {
-      "bytes": 21652,
+      "bytes": 21812,
       "path": "manuscript/paper.tex",
-      "sha256": "25457f6f710f2676c348bedc63e7e5addba75a37e613bbb262cc93d836cd892f"
+      "sha256": "06c59d4280e7424cd708b6ddd749a8d8b71cb7d29d677421b4e0306d787e48df"
     },
     {
       "bytes": 8506,
@@ -752,11 +752,11 @@
       "sha256": "6e440e913999233ff58c8cccab32e94d766cc3cc71632450190d32fe9470b46a"
     },
     {
-      "bytes": 3079,
+      "bytes": 3403,
       "path": "verify_release.py",
-      "sha256": "08bfa0d654c8e7372948ef00c38e5b21500c82844a84957626e1cf97b82e803d"
+      "sha256": "4a7c189effb061309935f72d199dde2eb6d1431723b5d87db04524a896a5ccb5"
     }
   ],
   "schema": "furter-r3-public-manifest-v1",
-  "version": "0.1.0-candidate"
+  "version": "0.1.0"
 }

@@ -36,7 +36,7 @@ def main() -> None:
         })
     payload = {
         "schema": "furter-r3-public-manifest-v1",
-        "version": "0.1.0-candidate",
+        "version": "0.1.0",
         "creator": "Anonymous",
         "files": files,
     }
@@ -49,4 +49,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

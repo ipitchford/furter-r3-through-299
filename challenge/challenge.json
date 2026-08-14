@@ -1,10 +1,14 @@
 {
   "schema": "universal-r3-challenge-v1",
-  "version": "0.1.0-candidate",
+  "version": "0.1.0",
   "date": "2026-08-14",
   "title": "Universal R(3) Challenge",
   "creator": "Anonymous",
   "status": "open-research-challenge",
+  "release": {
+    "doi": "10.5281/zenodo.21939362",
+    "repository": "https://github.com/ipitchford/furter-r3-through-299"
+  },
   "claim_boundary": {
     "proved": "R(3,n) for every integer 1 <= n <= 299",
     "open": "R(3,n) for all n >= 1",
@@ -116,4 +120,3 @@
     {"id": "EdoVdE2014", "doi": "10.1016/j.jalgebra.2013.09.011"}
   ]
 }
-

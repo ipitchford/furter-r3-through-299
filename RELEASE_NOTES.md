@@ -1,6 +1,6 @@
 # Release notes
 
-## 0.1.0-candidate — 14 August 2026
+## 0.1.0 — 14 August 2026
 
 Initial unrefereed candidate release.
 
@@ -18,3 +18,6 @@ Initial unrefereed candidate release.
 Universal `R(3)` remains open. This candidate has not been specialist peer
 reviewed or independently reconstructed outside the authoring workflow.
 
+Permanent record: <https://doi.org/10.5281/zenodo.21939362>
+
+Source and replay: <https://github.com/ipitchford/furter-r3-through-299>
